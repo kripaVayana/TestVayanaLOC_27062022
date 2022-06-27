@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "Page for Query",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tgetCNXData: async () => {\n\t\tstoreValue('customerOID', '60c91b11');\n\t\tconst entityData = await GetOTIntegrationEntity.run();\n\t\tconst kpData = await GetOTRelatedInd.run();\n\t\tconst userDetailsData = await GetOTUserDetails.run();\n\t\tconst entityAddress = await selectEntityAddress.run();\n\t\tconst bankDetails = await selectCNXBankDetails.run();\n\t\tconst entityKYC = await GetKYCDetails.run();\n\t\t\n\t\tconsole.log(entityData, '--entityData - CNX');\n\t\tconsole.log(kpData, '--kpData - CNX');\n\t\tconsole.log(userDetailsData, '--userDetailsData - CNX');\n\t\tconsole.log(entityAddress, '--entityAddress - CNX');\n\t\tconsole.log(bankDetails, '--bankDetails - CNX');\n\t\tconsole.log(entityKYC, '--entityKYC - CNX');\n\t},\n\tgetLocalData: async () => {\n\t\tstoreValue('customerOID', '60c91b11');\n\t\tstoreValue('customerJID', 'IN');\n\t\tconst entityData = await SelectApsCustomerData.run();\n\t\tconst kpData = await SelectKeyPersonData.run();\n\t\tconst userDetailsData = await GetEntityAdministratorData.run();\n\t\tconst entityAddress = await SelectEntityAddressDetails.run();\n\t\tconst entityRegAddress = await SelectEntityRegAddressDetails.run();\n\t\tconst entityCommAddress = await SelectEntityCommAddressDetails.run();\n\t\tconst keyPersonAddress = await SelectKeyPersonAddressDetails.run();\n\t\tconst bankDetails = await SelectBankDetails.run();\n\t\tconst entityKYC = await ListEntityKYCDocQuery.run();\n\t\tconst indKYC = await ListIndKYCDocQuery.run();\n\t\t\n\t\tconsole.log(entityData, '--entityData - Local');\n\t\tconsole.log(kpData, '--kpData - Local');\n\t\tconsole.log(userDetailsData, '--userDetailsData - Local');\n\t\tconsole.log(entityAddress, '--entityAddress - Local');\n\t\tconsole.log(entityRegAddress, '--entityRegAddress - Local');\n\t\tconsole.log(entityCommAddress, '--entityCommAddress - Local');\n\t\tconsole.log(keyPersonAddress, '--keyPersonAddress - Local');\n\t\tconsole.log(bankDetails, '--bankDetails - Local');\n\t\tconsole.log(entityKYC, '--entityKYC - Local');\n\t\tconsole.log(indKYC, '--indKYC - Local');\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "Page for Query_JSObject2",
+  "deleted": false,
+  "gitSyncId": "62861ecef4ee222f785ff32b_628f587772b49775ce4e8d49"
+}

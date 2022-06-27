@@ -1,0 +1,46 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "TestAuthorise",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tdocShortForms: {\n    'POI': 'Proof of Identification',\n    'POA': 'Proof of Address',\n    'PAN': 'PAN',\n    'CC': 'Cancelled Cheque',\n    'IEC': 'Import Export Certificate',\n    'PD': 'PartnerShip Deed',\n    'PL': 'Partnership Letter',\n    \n    'COI': 'Certificate of Incorporation',\n    'MAA':'Memorandum & Article of Association',\n    'LDIR': 'List of Directors with DIN',\n    'BR': 'Board Resolution',\n    'BOD': 'Beneficial ownership declaration',\n    \n    'PD1': 'Entity Proof Document 1',\n    'PD2':'Entity Proof Document 2',\n    'PHT': 'Photo',\n    \n    'LPDPIN': 'List of Partners with DPIN',\n    'LLPBR': 'LLP Board Resolution'\n\t},\n\tmyFun3: () => {\n\t\tstoreValue('customerOID', '62465b9d');\n\t\tstoreValue('customerJID', 'IN');\n\t\t// storeValue('customerOID', 'a82a4f7b');\n\t},\n\t\n\tgetFolderPrefix: () => appsmith.store.customerJID === 'IN' ? 'IndIndiaKYC' : 'IndFgnKYC',\n\tgetEntityKYCDocListPath: () => `${appsmith.store.FilePath}/${appsmith.store.customerOID}_Entity`,\n\tgetIndKYCDocListPath: () => `${appsmith.store.FilePath}/${'62465b9d'}_${this.getFolderPrefix()}_`,\n\t\n\tgetEntityKYCDocData: async () => {\n\t\treturn ListEntityKYCDocQuery.data.map((entry) => {\n\t\t\tconst dirs = entry.fileName.split(\"/\");\n\t\t\tconst fileDetails = dirs[2].split(\"__\");\n\t\t\treturn {\n\t\t\t\tDocumentType: this.docShortForms[fileDetails[0]],\n\t\t\t\tDocumentName: fileDetails.length === 3 ? fileDetails[1] : '-',\n\t\t\t\tFileName: fileDetails[fileDetails.length - 1],\n\t\t\t\tpath: entry.fileName,\n\t\t\t\tdocTypeCode: fileDetails[0],\n\t\t\t\tdocName: fileDetails.length === 3 ? fileDetails[1] : null,\n\t\t\t\turl: entry.url\n\t\t\t};\n\t\t});\n\t},\n\tgetIndKYCDocData: async (keyPId, keyPType) => {\n\t\tconst mappedData = await ListIndKYCDocQuery.data.map((entry) => {\n\t\t\tconst dirs = entry.fileName.split(\"/\");\n\t\t\tconst fileDetails = dirs[2].split(\"__\");\n\t\t\t// kycfiles/0df5b01a_IndIndiaKYC_3b0ah603/PHT__Logo.png\n\t\t\treturn {\n\t\t\t\tDocumentType: this.docShortForms[fileDetails[0]],\n\t\t\t\tDocumentName: fileDetails.length === 3 ? fileDetails[1] : '-',\n\t\t\t\tFileName: fileDetails[fileDetails.length - 1],\n\t\t\t\tpath: entry.fileName,\n\t\t\t\tdocTypeCode: fileDetails[0],\n\t\t\t\tdocName: fileDetails.length === 3 ? fileDetails[1] : null,\n\t\t\t\turl: entry.url,\n\t\t\t\tkeyPId: dirs[1].split(\"_\")[2],\n\t\t\t\tkeyPType: keyPType\n\t\t\t};\n\t\t});\n\t\treturn mappedData.filter((item) => item.keyPId === keyPId );\n\t},\n\t\n\tinsertEntityKYCDetails: async () => {\n\t\t// storeValue('customerOID', '0df5b01a');\n\t\tconst entityKycData = await this.getEntityKYCDocData();\n\t\t\n\t\tentityKycData.forEach(data => {\n\t\t\tInsertEntityKYCDetails.run({\n\t\t\t\tdocType: data.docTypeCode,\n\t\t\t\tfileName: data.FileName,\n\t\t\t\tlink: data.url\n\t\t\t});\n\t\t});\n\t},\n\tinsertIndKYCDocDetails: async () => {\n\t\t// storeValue('customerOID', '0df5b01a');\n\t\t// storeValue('customerJID', 'IN');\n\t\tconst keyPersonData = await SelectRelatedIndividual.run();\n\n\t\tfor (let i = 0; i < keyPersonData.length; i++) {\n\t\t\tconst kycData = await this.getIndKYCDocData(\n\t\t\t\tkeyPersonData[i].OID,\n\t\t\t\tkeyPersonData[i].CUSTOMER_KEY_PERSON_ENTITY_TYPE\n\t\t\t);\n\t\t\t\n\t\t\tif (kycData && kycData.length) {\n\t\t\t\tkycData.forEach((data) => {\n\t\t\t\t\tconsole.log(data);\n\t\t\t\t\tInsertIndKYCDetails.run({\n\t\t\t\t\t\tcustomerOID: appsmith.store.customerOID,\n\t\t\t\t\t\tkeyPersonID: data.keyPId,\n\t\t\t\t\t\tkeyPersonType: data.keyPType,\n\t\t\t\t\t\tdocType: data.docTypeCode,\n\t\t\t\t\t\tfileName: data.FileName,\n\t\t\t\t\t\tlink: data.url,\n\t\t\t\t\t});\n\t\t\t\t});\n\t\t\t}\n\t\t}\n\t},\n\t\n\tmyFun1: async () => {\n\t\t//write code here\n\t\tconst entityAddr = await SelectEntityAddressDetails.run();\n\t\tif (entityAddr.length == 1 )\n\t\t\t{\n\t\t\t\tshowAlert('Record Found');\n\t\t\t\tInsertEntityCommAddressDetails.run({index : 0 });\n\t\t\t\tInsertEntityRegAddressDetails.run({index : 0 });\n\t\t\t}\n\t\telse\n\t\t\t{\n\t\t\t\tshowAlert('Ignore the record')\n\t\t\t}\n\t\tconst keyPAddr = await SelectKeyPersonAddressDetails.run();\n\t\t\t\t\t\tfor ( let i = 0 ; i < keyPAddr.length ; i++)\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\tInsertKeyPersonAddressDetails.run({index : i });\n\t\t\t\t\t\t\t\tshowAlert(i+ 'Key Person');\n\t\t\t\t\t\t\t}\n\t\tselectEntityAddress.run();\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t\tconst bankDetails = await SelectBankDetails.run();\n\t\tfor ( let i = 0 ; i < bankDetails.length ; i++)\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\tInsertBankDetails.run({index : i });\n\t\t\t\t\t\t\t\tshowAlert(i+ 'Bank Details');\n\t\t\t\t\t\t\t}\n\t\tselectCNXBankDetails.run();\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      },
+      {
+        "name": "docShortForms",
+        "value": {
+          "POI": "Proof of Identification",
+          "POA": "Proof of Address",
+          "PAN": "PAN",
+          "CC": "Cancelled Cheque",
+          "IEC": "Import Export Certificate",
+          "PD": "PartnerShip Deed",
+          "PL": "Partnership Letter",
+          "COI": "Certificate of Incorporation",
+          "MAA": "Memorandum & Article of Association",
+          "LDIR": "List of Directors with DIN",
+          "BR": "Board Resolution",
+          "BOD": "Beneficial ownership declaration",
+          "PD1": "Entity Proof Document 1",
+          "PD2": "Entity Proof Document 2",
+          "PHT": "Photo",
+          "LPDPIN": "List of Partners with DPIN",
+          "LLPBR": "LLP Board Resolution"
+        }
+      }
+    ]
+  },
+  "id": "TestAuthorise_JSObject1",
+  "deleted": false,
+  "gitSyncId": "62861ecef4ee222f785ff32b_62871ad5f4ee222f785ff6d7"
+}

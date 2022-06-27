@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "India Non Corporate Address",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\n\tmyFun2:  () => {\n\t\t//use async-await or promises\n\t},\n\tmyFunValidMobilenumber: () => {\n\t\tconst mobileNo = vayRegContactNo.text.replace(/\\s/g,'')\n\t\tif(mobileNo.length === 10 || mobileNo.length === 11)\n\t\t\treturn true;\n\t\telse\n\t\t\treturn false;\n\t},\n\tmyFunValidMobilenumbercomm: () => {\n\t\tconst mobileNo = vayCommContactNo.text.replace(/\\s/g,'')\n\t\tif(mobileNo.length === 10 || mobileNo.length === 11)\n\t\t\treturn true;\n\t\telse\n\t\t\treturn false;\n\t},\n\tmyFunGetCommAddr: () => {\n    let addr = \"\";\n\n    if (appsmith.store.vayNcComAddrr1 && appsmith.store.vayNcComAddrr1.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcComAddrr1}, `;\n    }\n    if (appsmith.store.vayNcComAddrr2 && appsmith.store.vayNcComAddrr2.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcComAddrr2}, `;\n    }\n    if (appsmith.store.vayNcComCity && appsmith.store.vayNcComCity.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcComCity}, `;\n    }\n    if (appsmith.store.vayNcComDistrict && appsmith.store.vayNcComDistrict.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcComDistrict}, `;\n    }\n    if (appsmith.store.vayNcComState && appsmith.store.vayNcComState.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcComState}, `;\n    }\n    if (appsmith.store.vayNcComCountry && appsmith.store.vayNcComCountry.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcComCountry}, `;\n    }\n    if (appsmith.store.vayNcComPinCode && appsmith.store.vayNcComPinCode.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcComPinCode}.`;\n    }\n\n    return addr;\n\t},\n\tmyFunGetRegdAddr: () => {\n    let addr = \"\";\n\n    if (appsmith.store.vayNcRegAddrr1 && appsmith.store.vayNcRegAddrr1.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcRegAddrr1},`;\n    }\n    if (appsmith.store.vayNcRegAddrr2 && appsmith.store.vayNcRegAddrr2.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcRegAddrr2}, `;\n    }\n    if (appsmith.store.vayNcRegCity && appsmith.store.vayNcRegCity.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcRegCity}, `;\n    }\n    if (appsmith.store.vayNcRegDistrict && appsmith.store.vayNcRegDistrict.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcRegDistrict}, `;\n    }\n    if (appsmith.store.vayNcRegState && appsmith.store.vayNcRegState.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcRegState}, `;\n    }\n    if (appsmith.store.vayNcRegCountry && appsmith.store.vayNcRegCountry.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcRegCountry}, `;\n    }\n    if (appsmith.store.vayNcRegPinCode && appsmith.store.vayNcRegPinCode.replace(/\\s/g, '').length) {\n        addr = `${addr}${appsmith.store.vayNcRegPinCode}.`;\n    }\n\n    return addr;\n\t}\n}\n",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "India Non Corporate Address_JSObject1",
+  "deleted": false,
+  "gitSyncId": "624b155c4eae7255ccdd4d5d_625687ffd6bb232d41860d78"
+}

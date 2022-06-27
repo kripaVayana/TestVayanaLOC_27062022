@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Verification Individual Summar",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\n\tonViewEntryClick: () => {\n\t\tstoreValue('keyPersonOID', vayKeyPersonIndList.selectedItem.OID);\n\t\tnavigateTo('Verification Individual KYC');\n\t}\n}",
+    "variables": []
+  },
+  "id": "Verification Individual Summar_JSObject1",
+  "deleted": false,
+  "gitSyncId": "624b155c4eae7255ccdd4d5d_62728145d466167adced6fb7"
+}

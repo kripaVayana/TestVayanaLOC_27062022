@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Page for Query",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\tstoreValue('customerOID', '62465b9d');\n\t\t//write code here\n\t},\n\tgetLocalEntityData: async () => {\n\t\tconsole.log(appsmith.store);\n\t\tconst apsData = await SelectApsCustomerData.run();\n\t\tconsole.log(apsData);\n\t},\n\tinsertEntityDataToCNX: async () => {\n\t\t// storeValue('customerOID', 'IM098080');\n\t\tconst apsData = await SelectApsCustomerData.run();\n\t\tconsole.log(apsData);\n\t\tif(apsData && apsData.length > 0){\n\t\t\tawait InsertOTIntegrationEntity.run();\n\t\t}\n\t},\n\tgetEntityCNXData: async () => {\n\t\tconst cnxEntityData = await GetOTIntegrationEntity.run();\n\t\tconsole.log(cnxEntityData);\n\t},\n\tgetLocalKeyPersonData: async () => {\n\t\t// storeValue('customerOID', 'IM098080');\n\t\tconst keyPersonData = await SelectKeyPersonData.run();\n\t\tconsole.log(keyPersonData);\n\t},\n\tinsertKeyPersonDataToCNX: async () => {\n\t\t// storeValue('customerOID', '06a108a7');\n\t\tconst keyPersonData = await SelectKeyPersonData.run();\n\t\tconsole.log(keyPersonData);\n\t\tif(keyPersonData && keyPersonData.length > 0){\n\t\t\t keyPersonData.forEach(data => {\n\t\t\t\t InsertOTRelatedInd.run({kpData: data})\n\t\t\t });\n\t\t}\n\t},\n\tgetKeyPersonCNXData: async () => {\n\t\tconst cnxKeyPersonData = await GetOTRelatedInd.run();\n\t\tconsole.log(cnxKeyPersonData);\n\t},\n\tgetLocalEntityUserDetailsData: async () => {\n\t\t// storeValue('customerOID', '06a108a7');\n\t\tconst keyPersonData = await GetEntityAdministratorData.run();\n\t\tconsole.log(keyPersonData);\n\t},\n\tinsertUserDetailsToCNX: async () => {\n\t\t// storeValue('customerOID', '06a108a7');\n\t\tconst userDetailData = await GetEntityAdministratorData.run();\n\t\tuserDetailData.forEach(async (user) => {\n\t\t\tawait InsertOTUserDetails.run({\n\t\t\t\tarnNo: user.CUSTOMER_OID,\n\t\t\t\tuserId: user.CUSTOMER_KEY_PERSON_EMAIL.split('@')[0],\n\t\t\t\tuserName: `${user.CUSTOMER_KEY_PERSON_FIRSTNAME} ${user.CUSTOMER_KEY_PERSON_MIDDLENAME ? \t\t`${user.CUSTOMER_KEY_PERSON_MIDDLENAME} ` : \"\"}${user.CUSTOMER_KEY_PERSON_LASTNAME}`,\n\t\t\t\temail: user.CUSTOMER_KEY_PERSON_EMAIL,\n\t\t\t\tmobile: user.CUSTOMER_KEY_PERSON_MOBILE,\n\t\t\t\tcreatedBy: user.CREATE_USER_OID,\n\t\t\t\tcreatedDate: user.CREATE_DATE_TIME,\n\t\t\t\tmodifiedBy: user.LAST_UPDATE_USER_OID,\n\t\t\t\tmodifiedDate: user.LAST_UPDATE_DATE_TIME\n\t\t\t})\n\t\t})\n\t},\n\tgetUserDetailsCNXData: async () => {\n\t\tconst cnxKeyPersonData = await GetOTUserDetails.run();\n\t\tconsole.log(cnxKeyPersonData);\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "Page for Query_JSObject1",
+  "deleted": false,
+  "gitSyncId": "62861ecef4ee222f785ff32b_62874482f4ee222f785ff712"
+}

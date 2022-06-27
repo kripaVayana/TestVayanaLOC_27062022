@@ -1,0 +1,2110 @@
+{
+  "unpublishedPage": {
+    "name": "India Non Corporate Address",
+    "slug": "india-non-corporate-address",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 988,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1040,
+          "containerStyle": "none",
+          "snapRows": 63,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 59,
+          "minHeight": 720,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "Container1",
+              "borderColor": "#264283",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 0,
+              "bottomRow": 91,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 14.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [],
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 810,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "vayLogo",
+                      "onClick": "{{navigateTo('Homepage', {})}}",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "displayName": "Image",
+                      "iconSVG": "/static/media/icon.52d8fb96.svg",
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "parentRowSpace": 10,
+                      "type": "IMAGE_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 13.75,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "imageShape": "RECTANGLE",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [],
+                      "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+                      "key": "p6fdp3nhxk",
+                      "labelTextSize": "0.875rem",
+                      "image": "https://sandbox.vtx.vayana.com/ITFS_UAT_APP/images/logo.png",
+                      "rightColumn": 13,
+                      "objectFit": "contain",
+                      "widgetId": "y4s1h0ld7s",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "09rmpj9gez",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "maxZoomLevel": 1,
+                      "enableDownload": false,
+                      "borderRadius": "0px",
+                      "enableRotation": false
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Form1",
+                      "borderColor": "#2E3D49",
+                      "isCanvas": true,
+                      "displayName": "Form",
+                      "iconSVG": "/static/media/icon.ea3e08d1.svg",
+                      "topRow": 7,
+                      "bottomRow": 79,
+                      "parentRowSpace": 10,
+                      "type": "FORM_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 13.75,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 3,
+                      "dynamicBindingPathList": [],
+                      "children": [
+                        {
+                          "boxShadow": "none",
+                          "widgetName": "Canvas2",
+                          "displayName": "Canvas",
+                          "topRow": 0,
+                          "bottomRow": 700,
+                          "parentRowSpace": 1,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "hideCard": true,
+                          "minHeight": 400,
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "children": [
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "vayManIndFirstNameCopy5Copy1Copy",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 55,
+                              "bottomRow": 59,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 12.25,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "fontFamily": "System Default",
+                              "leftColumn": 33,
+                              "dynamicBindingPathList": [],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "*",
+                              "key": "3oh9rojo2l",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 35,
+                              "textAlign": "RIGHT",
+                              "widgetId": "mljhx6c5fe",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#DD4B34",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "vayManIndFirstNameCopy5Copy1",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 55,
+                              "bottomRow": 59,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 12.25,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "fontFamily": "System Default",
+                              "leftColumn": 0,
+                              "dynamicBindingPathList": [],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "*",
+                              "key": "3oh9rojo2l",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 2,
+                              "textAlign": "RIGHT",
+                              "widgetId": "dcxmwv40kd",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#DD4B34",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "vayManIndCommPhoneNumberCopyCopy",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 21,
+                              "bottomRow": 25,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 16.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "fontFamily": "System Default",
+                              "leftColumn": 0,
+                              "dynamicBindingPathList": [],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "*",
+                              "key": "mlvt9nsupd",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 2,
+                              "textAlign": "RIGHT",
+                              "widgetId": "anwoa3o0qr",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#DD4B34",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "vayManIndCommPhoneNumberCopy",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 46,
+                              "bottomRow": 50,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 16.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "fontFamily": "System Default",
+                              "leftColumn": 0,
+                              "dynamicBindingPathList": [],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "*",
+                              "key": "mlvt9nsupd",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 2,
+                              "textAlign": "RIGHT",
+                              "widgetId": "ezahvy1trs",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#DD4B34",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Text6Copy",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 46,
+                              "bottomRow": 50,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 9.392822265625,
+                              "dynamicTriggerPathList": [],
+                              "fontFamily": "System Default",
+                              "leftColumn": 2,
+                              "dynamicBindingPathList": [],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Email",
+                              "key": "h1fac7hoha",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 10,
+                              "textAlign": "LEFT",
+                              "widgetId": "zk9eesf24m",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "InputCommEmail",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "displayName": "Input",
+                              "iconSVG": "/static/media/icon.9f505595.svg",
+                              "topRow": 46,
+                              "bottomRow": 50,
+                              "parentRowSpace": 10,
+                              "labelWidth": 5,
+                              "autoFocus": false,
+                              "type": "INPUT_WIDGET_V2",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 9.392822265625,
+                              "dynamicTriggerPathList": [],
+                              "resetOnSubmit": true,
+                              "leftColumn": 10,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "accentColor"
+                                },
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "labelPosition": "Left",
+                              "labelStyle": "",
+                              "inputType": "TEXT",
+                              "isDisabled": "{{appsmith.store.viewOnly}}",
+                              "key": "2imo8ru087",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": true,
+                              "rightColumn": 31,
+                              "widgetId": "zd9kknyxrx",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisible": true,
+                              "label": "",
+                              "version": 2,
+                              "parentId": "cl7oemxtid",
+                              "labelAlignment": "left",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "iconAlign": "left",
+                              "defaultText": "{{selectCurrentrecord.data[0].CUSTOMER_COMM_EMAIL}}"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "IconButton1",
+                              "onClick": "{{navigateTo('India - Non Corporate')}}",
+                              "buttonColor": "#264283",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "displayName": "Icon Button",
+                              "iconSVG": "/static/media/icon.1a0c634a.svg",
+                              "topRow": 1,
+                              "bottomRow": 5,
+                              "parentRowSpace": 10,
+                              "type": "ICON_BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.4375,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 59,
+                              "dynamicBindingPathList": [],
+                              "isDisabled": false,
+                              "key": "llbrcvv24l",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 63,
+                              "iconName": "arrow-left",
+                              "widgetId": "hd1l5qtp55",
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "9999px",
+                              "buttonVariant": "SECONDARY"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "vayManIndCommPhoneNumber",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 46,
+                              "bottomRow": 50,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 16.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "fontFamily": "System Default",
+                              "leftColumn": 33,
+                              "dynamicBindingPathList": [],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "*",
+                              "key": "mlvt9nsupd",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 35,
+                              "textAlign": "RIGHT",
+                              "widgetId": "37uopjppab",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#DD4B34",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "vayManIndRegPhoneNumber",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 21,
+                              "bottomRow": 25,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 16.75,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "fontFamily": "System Default",
+                              "leftColumn": 33,
+                              "dynamicBindingPathList": [],
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "*",
+                              "key": "mlvt9nsupd",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 35,
+                              "textAlign": "RIGHT",
+                              "widgetId": "ge0sd9p24g",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#DD4B34",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "vayRegContactNo",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isDisabled"
+                                },
+                                {
+                                  "key": "onTextChanged"
+                                }
+                              ],
+                              "displayName": "Phone Input",
+                              "iconSVG": "/static/media/icon.ec4f5c23.svg",
+                              "topRow": 21,
+                              "bottomRow": 25,
+                              "parentRowSpace": 10,
+                              "defaultDialCode": "+91",
+                              "autoFocus": false,
+                              "type": "PHONE_INPUT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 16.75,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onTextChanged"
+                                }
+                              ],
+                              "resetOnSubmit": true,
+                              "leftColumn": 43,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "validation"
+                                },
+                                {
+                                  "key": "accentColor"
+                                },
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "countryCode": "IN",
+                              "labelStyle": "",
+                              "isDisabled": "{{appsmith.store.viewOnly}}",
+                              "key": "yf1bv79skm",
+                              "validation": "{{JSObject1.myFunValidMobilenumber()}}",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": true,
+                              "onTextChanged": "{{storeValue('vayNcRegPhoneNo',vayRegContactNo.text, true)}}",
+                              "rightColumn": 63,
+                              "widgetId": "h6a8k61t1m",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "allowDialCodeChange": false,
+                              "isVisible": true,
+                              "label": "",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "allowFormatting": false,
+                              "borderRadius": "0px",
+                              "iconAlign": "left",
+                              "defaultText": "{{selectCurrentrecord.data[0].CUSTOMER_REG_PHONE_NO}}"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "vayCommExtn",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isDisabled"
+                                },
+                                {
+                                  "key": "onTextChanged"
+                                }
+                              ],
+                              "displayName": "Input",
+                              "iconSVG": "/static/media/icon.9f505595.svg",
+                              "topRow": 50,
+                              "bottomRow": 54,
+                              "parentRowSpace": 10,
+                              "autoFocus": false,
+                              "type": "INPUT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onTextChanged"
+                                }
+                              ],
+                              "resetOnSubmit": true,
+                              "leftColumn": 43,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "isDisabled"
+                                },
+                                {
+                                  "key": "accentColor"
+                                }
+                              ],
+                              "labelStyle": "",
+                              "inputType": "NUMBER",
+                              "isDisabled": "{{appsmith.store.viewOnly}}",
+                              "key": "epdb38ire8",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": false,
+                              "onTextChanged": "{{storeValue('vayNcComPhoneExt',vayCommExtn.text, true)}}",
+                              "rightColumn": 63,
+                              "widgetId": "a7gbb22bzu",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisible": false,
+                              "label": "",
+                              "allowCurrencyChange": false,
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "iconAlign": "left",
+                              "defaultText": "{{selectCurrentrecord.data[0].CUSTOMER_COMM_PHONE_EXTEN ?? appsmith.store.vayNcComPhoneExt}}"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Button2Copy",
+                              "onClick": "{{utils.clearComm1Addr()}}",
+                              "buttonColor": "#DD4B34",
+                              "dynamicPropertyPathList": [],
+                              "displayName": "Button",
+                              "iconSVG": "/static/media/icon.cca02633.svg",
+                              "topRow": 34,
+                              "bottomRow": 38,
+                              "parentRowSpace": 10,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.4375,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 27,
+                              "dynamicBindingPathList": [],
+                              "text": "Clear",
+                              "isDisabled": false,
+                              "key": "m8qatnbksb",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 33,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "ylgpokqhzg",
+                              "isVisible": false,
+                              "version": 1,
+                              "recaptchaType": "V3",
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "buttonVariant": "PRIMARY"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Button2",
+                              "onClick": "{{\n\t(function(){\n\t\tstoreValue('vayNcRegAddrr1', \"\")\n\t\t\tstoreValue('vayNcRegAddrr2', \"\")\n\t\t\tstoreValue('vayNcRegCity', \"\")\n\t\t\tstoreValue('vayNcRegDistrict', \"\")\n\t\t\tstoreValue('vayNcRegState', \"\")\n\t\t\tstoreValue('vayNcRegCountry', \"\")\n\t\t\tstoreValue('vayNcRegPinCode', \"\")\n\t})()\n}}",
+                              "buttonColor": "#DD4B34",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "displayName": "Button",
+                              "iconSVG": "/static/media/icon.cca02633.svg",
+                              "topRow": 11,
+                              "bottomRow": 15,
+                              "parentRowSpace": 10,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.4375,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 27,
+                              "dynamicBindingPathList": [],
+                              "text": "Clear",
+                              "isDisabled": false,
+                              "key": "m8qatnbksb",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 33,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "emaxfgh304",
+                              "isVisible": false,
+                              "version": 1,
+                              "recaptchaType": "V3",
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "buttonVariant": "PRIMARY"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Text4",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 5,
+                              "bottomRow": 9,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.4375,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "fontFamily": "System Default",
+                              "leftColumn": 1,
+                              "dynamicBindingPathList": [],
+                              "text": "Registered Address",
+                              "key": "s87kg0szyt",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 18,
+                              "textAlign": "LEFT",
+                              "widgetId": "s2frx6rog5",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Text1",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "fontSize"
+                                }
+                              ],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 1,
+                              "bottomRow": 5,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "fontFamily": "System Default",
+                              "leftColumn": 1,
+                              "dynamicBindingPathList": [],
+                              "text": "Business Address Details",
+                              "key": "s87kg0szyt",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 29,
+                              "textAlign": "LEFT",
+                              "widgetId": "m08g6ozali",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#264283",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "1.5rem"
+                            },
+                            {
+                              "resetFormOnClick": false,
+                              "boxShadow": "none",
+                              "widgetName": "FormButton1",
+                              "onClick": "{{noncorpCustomerCreateAndUpdate.onClick()}}",
+                              "buttonColor": "#264283",
+                              "displayName": "FormButton",
+                              "iconSVG": "/static/media/icon.c8f649ed.svg",
+                              "topRow": 64,
+                              "bottomRow": 68,
+                              "type": "FORM_BUTTON_WIDGET",
+                              "hideCard": true,
+                              "animateLoading": true,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 48,
+                              "dynamicBindingPathList": [],
+                              "text": "Save & Next",
+                              "key": "bgweb0njo3",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 64,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "3rucqjtuuk",
+                              "isVisible": true,
+                              "version": 1,
+                              "recaptchaType": "V3",
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": true,
+                              "borderRadius": "0px",
+                              "buttonVariant": "PRIMARY"
+                            },
+                            {
+                              "resetFormOnClick": true,
+                              "boxShadow": "none",
+                              "widgetName": "FormButton2",
+                              "onClick": "",
+                              "buttonColor": "#264283",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "displayName": "FormButton",
+                              "iconSVG": "/static/media/icon.c8f649ed.svg",
+                              "topRow": 64,
+                              "bottomRow": 68,
+                              "type": "FORM_BUTTON_WIDGET",
+                              "hideCard": true,
+                              "animateLoading": true,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 30,
+                              "dynamicBindingPathList": [],
+                              "text": "Reset",
+                              "key": "bgweb0njo3",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 46,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "fu9mmvw2vw",
+                              "isVisible": false,
+                              "version": 1,
+                              "recaptchaType": "V3",
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": true,
+                              "borderRadius": "0px",
+                              "buttonVariant": "SECONDARY"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "vayIndNcRegisteredAddress",
+                              "displayName": "Input",
+                              "iconSVG": "/static/media/icon.9f505595.svg",
+                              "topRow": 9,
+                              "bottomRow": 20,
+                              "parentRowSpace": 10,
+                              "autoFocus": false,
+                              "type": "INPUT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [],
+                              "resetOnSubmit": true,
+                              "leftColumn": 1,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "accentColor"
+                                }
+                              ],
+                              "labelStyle": "",
+                              "inputType": "TEXT",
+                              "isDisabled": true,
+                              "key": "ee3ehb78bx",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": true,
+                              "rightColumn": 24,
+                              "widgetId": "kapypwzbdo",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisible": true,
+                              "label": "",
+                              "allowCurrencyChange": false,
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "iconAlign": "left",
+                              "defaultText": "{{JSObject1.myFunGetRegdAddr()}}"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Button1",
+                              "onClick": "{{utils.myfunsetRegAddrtoGSTAddr()}}",
+                              "buttonColor": "#264283",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isDisabled"
+                                },
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "displayName": "Button",
+                              "iconSVG": "/static/media/icon.cca02633.svg",
+                              "topRow": 9,
+                              "bottomRow": 13,
+                              "parentRowSpace": 10,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 47,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "text": "Copy GST Address",
+                              "isDisabled": "{{appsmith.store.viewOnly}}",
+                              "key": "m8qatnbksb",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 63,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "efkkul7wbj",
+                              "isVisible": true,
+                              "version": 1,
+                              "recaptchaType": "V3",
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "buttonVariant": "SECONDARY"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Button3",
+                              "onClick": "{{\n\t(function(){\n\t\tstoreValue('vayAddressBackpage',appsmith.URL.fullPath)\n\t\tnavigateTo('Add New Address Indian',{ \"addType\" : \"com\", \"bkPage\" : \"IndNCAddReg\" })\n\t})()\n}}",
+                              "buttonColor": "#264283",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                },
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "displayName": "Button",
+                              "iconSVG": "/static/media/icon.cca02633.svg",
+                              "topRow": 13,
+                              "bottomRow": 17,
+                              "parentRowSpace": 10,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 47,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "text": "Add New Address",
+                              "isDisabled": "{{appsmith.store.viewOnly}}",
+                              "key": "m8qatnbksb",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 63,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "trb1ahzvnc",
+                              "isVisible": true,
+                              "version": 1,
+                              "recaptchaType": "V3",
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "buttonVariant": "SECONDARY"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Text5",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 29,
+                              "bottomRow": 33,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "fontFamily": "System Default",
+                              "leftColumn": 1,
+                              "dynamicBindingPathList": [],
+                              "text": "Communication Address",
+                              "key": "s87kg0szyt",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 17,
+                              "textAlign": "LEFT",
+                              "widgetId": "2qquj4rpz0",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "vayIndNcCommunicationAddress",
+                              "displayName": "Input",
+                              "iconSVG": "/static/media/icon.9f505595.svg",
+                              "topRow": 33,
+                              "bottomRow": 45,
+                              "parentRowSpace": 10,
+                              "autoFocus": false,
+                              "type": "INPUT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [],
+                              "resetOnSubmit": true,
+                              "leftColumn": 1,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "accentColor"
+                                }
+                              ],
+                              "labelStyle": "",
+                              "inputType": "TEXT",
+                              "isDisabled": true,
+                              "key": "ee3ehb78bx",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": true,
+                              "rightColumn": 24,
+                              "widgetId": "jjt09kz3eq",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisible": true,
+                              "label": "",
+                              "allowCurrencyChange": false,
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "iconAlign": "left",
+                              "defaultText": "{{JSObject1.myFunGetCommAddr()}}"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Button4",
+                              "onClick": "{{utils.myfunsetCommAddrtoGSTAddr()}}",
+                              "buttonColor": "#264283",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isDisabled"
+                                },
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "displayName": "Button",
+                              "iconSVG": "/static/media/icon.cca02633.svg",
+                              "topRow": 32,
+                              "bottomRow": 36,
+                              "parentRowSpace": 10,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 47,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "text": "Copy GST Address",
+                              "isDisabled": "{{appsmith.store.viewOnly}}",
+                              "key": "m8qatnbksb",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 63,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "rd9ar0qjkz",
+                              "isVisible": true,
+                              "version": 1,
+                              "recaptchaType": "V3",
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "buttonVariant": "SECONDARY"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Button5",
+                              "onClick": "{{\n\t(function(){\n\t\tstoreValue('vayAddressBackpage',appsmith.URL.fullPath)\n\t\tnavigateTo('Add New Address Indian',{ \"addType\" : \"com\", \"bkPage\" : \"IndNCAddCom\" })\n\t})()\n}}",
+                              "buttonColor": "#264283",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                },
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "displayName": "Button",
+                              "iconSVG": "/static/media/icon.cca02633.svg",
+                              "topRow": 40,
+                              "bottomRow": 44,
+                              "parentRowSpace": 10,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 47,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "text": "Add New Address",
+                              "isDisabled": "{{appsmith.store.viewOnly}}",
+                              "key": "m8qatnbksb",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 63,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "wixqx50e9j",
+                              "isVisible": true,
+                              "version": 1,
+                              "recaptchaType": "V3",
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "buttonVariant": "SECONDARY"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Button6",
+                              "onClick": "{{utils.myfunsetNCAddrtoCommAddr()}}",
+                              "buttonColor": "#264283",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isDisabled"
+                                },
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "displayName": "Button",
+                              "iconSVG": "/static/media/icon.cca02633.svg",
+                              "topRow": 36,
+                              "bottomRow": 40,
+                              "parentRowSpace": 10,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 12.14599609375,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 47,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "text": "Copy Registered Address",
+                              "isDisabled": "{{vayIndNcRegisteredAddress.text == \"      \"  || appsmith.store.viewOnly}}",
+                              "key": "cf0kv6ed7l",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 63,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "3vz62kqrfe",
+                              "isVisible": true,
+                              "recaptchaType": "V3",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "buttonVariant": "SECONDARY",
+                              "placement": "CENTER"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "vayRegExtn",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isDisabled"
+                                },
+                                {
+                                  "key": "onTextChanged"
+                                }
+                              ],
+                              "displayName": "Input",
+                              "iconSVG": "/static/media/icon.9f505595.svg",
+                              "topRow": 25,
+                              "bottomRow": 29,
+                              "parentRowSpace": 10,
+                              "autoFocus": false,
+                              "type": "INPUT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onTextChanged"
+                                }
+                              ],
+                              "resetOnSubmit": true,
+                              "leftColumn": 43,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "isDisabled"
+                                },
+                                {
+                                  "key": "accentColor"
+                                }
+                              ],
+                              "labelStyle": "",
+                              "labelTextColor": "#2E3D49",
+                              "inputType": "NUMBER",
+                              "isDisabled": "{{appsmith.store.viewOnly}}",
+                              "key": "epdb38ire8",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": false,
+                              "onTextChanged": "{{storeValue('vayNcRegPhoneExt',vayRegExtn.text, true)}}",
+                              "rightColumn": 63,
+                              "widgetId": "e0actbuvh1",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisible": false,
+                              "label": "",
+                              "allowCurrencyChange": false,
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "iconAlign": "left",
+                              "defaultText": "{{selectCurrentrecord.data[0].CUSTOMER_REG_PHONE_EXTEN ?? appsmith.store.vayNcRegPhoneExt}}"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "vayCommContactNo",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onTextChanged"
+                                },
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "displayName": "Phone Input",
+                              "iconSVG": "/static/media/icon.ec4f5c23.svg",
+                              "topRow": 46,
+                              "bottomRow": 50,
+                              "parentRowSpace": 10,
+                              "defaultDialCode": "+91",
+                              "autoFocus": false,
+                              "type": "PHONE_INPUT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 15.8681640625,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onTextChanged"
+                                }
+                              ],
+                              "resetOnSubmit": true,
+                              "leftColumn": 43,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "validation"
+                                },
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "accentColor"
+                                },
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "labelStyle": "",
+                              "isDisabled": "{{appsmith.store.viewOnly}}",
+                              "key": "uhtxaau7ds",
+                              "validation": "{{JSObject1.myFunValidMobilenumbercomm()}}",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": true,
+                              "onTextChanged": "{{storeValue('vayNcComPhoneNo',vayCommContactNo.text, true)}}",
+                              "rightColumn": 63,
+                              "widgetId": "f5ur283ovm",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "allowDialCodeChange": false,
+                              "isVisible": true,
+                              "label": "",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "allowFormatting": false,
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "iconAlign": "left",
+                              "defaultText": "{{selectCurrentrecord.data[0].CUSTOMER_COMM_PHONE_NO}}"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Text7",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 21,
+                              "bottomRow": 25,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 10.60791015625,
+                              "dynamicTriggerPathList": [],
+                              "fontFamily": "System Default",
+                              "leftColumn": 35,
+                              "dynamicBindingPathList": [],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Contact Number",
+                              "key": "qthc36tcr5",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 43,
+                              "textAlign": "LEFT",
+                              "widgetId": "7e1pd32coo",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Text8",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 25,
+                              "bottomRow": 29,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 10.60791015625,
+                              "dynamicTriggerPathList": [],
+                              "fontFamily": "System Default",
+                              "leftColumn": 35,
+                              "dynamicBindingPathList": [],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Extension",
+                              "key": "qthc36tcr5",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 43,
+                              "textAlign": "LEFT",
+                              "widgetId": "umzegoonpg",
+                              "isVisible": false,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Text9",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 46,
+                              "bottomRow": 50,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 10.60791015625,
+                              "dynamicTriggerPathList": [],
+                              "fontFamily": "System Default",
+                              "leftColumn": 35,
+                              "dynamicBindingPathList": [],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Contact Number",
+                              "key": "qthc36tcr5",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 43,
+                              "textAlign": "LEFT",
+                              "widgetId": "ev59q509hn",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Text10",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 50,
+                              "bottomRow": 54,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 10.60791015625,
+                              "dynamicTriggerPathList": [],
+                              "fontFamily": "System Default",
+                              "leftColumn": 35,
+                              "dynamicBindingPathList": [],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Extension",
+                              "key": "qthc36tcr5",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 43,
+                              "textAlign": "LEFT",
+                              "widgetId": "znx7op1aj5",
+                              "isVisible": false,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Text11",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 21,
+                              "bottomRow": 25,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 8.62255859375,
+                              "dynamicTriggerPathList": [],
+                              "fontFamily": "System Default",
+                              "leftColumn": 2,
+                              "dynamicBindingPathList": [],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Email",
+                              "key": "h1fac7hoha",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 10,
+                              "textAlign": "LEFT",
+                              "widgetId": "swjya3yi3f",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "InputRegEmail",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "displayName": "Input",
+                              "iconSVG": "/static/media/icon.9f505595.svg",
+                              "topRow": 21,
+                              "bottomRow": 25,
+                              "parentRowSpace": 10,
+                              "labelWidth": 5,
+                              "autoFocus": false,
+                              "type": "INPUT_WIDGET_V2",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 8.62255859375,
+                              "dynamicTriggerPathList": [],
+                              "resetOnSubmit": true,
+                              "leftColumn": 10,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "accentColor"
+                                },
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "labelPosition": "Left",
+                              "labelStyle": "",
+                              "inputType": "TEXT",
+                              "isDisabled": "{{appsmith.store.viewOnly}}",
+                              "key": "2imo8ru087",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": true,
+                              "rightColumn": 31,
+                              "widgetId": "uyc2eg4ph3",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisible": true,
+                              "label": "",
+                              "version": 2,
+                              "parentId": "cl7oemxtid",
+                              "labelAlignment": "left",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "iconAlign": "left",
+                              "defaultText": "{{selectCurrentrecord.data[0].CUSTOMER_REG_EMAIL}}"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Text12",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 55,
+                              "bottomRow": 59,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 8.380950927734375,
+                              "dynamicTriggerPathList": [],
+                              "fontFamily": "System Default",
+                              "leftColumn": 2,
+                              "dynamicBindingPathList": [],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Address for GST Invoicing",
+                              "key": "o6k2y2rcuj",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 10,
+                              "textAlign": "LEFT",
+                              "widgetId": "9tb5p387va",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "SelectAddressforGSTInvoicing",
+                              "isFilterable": true,
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "displayName": "Select",
+                              "iconSVG": "/static/media/icon.bd99caba.svg",
+                              "labelText": "",
+                              "topRow": 55,
+                              "bottomRow": 59,
+                              "parentRowSpace": 10,
+                              "labelWidth": 5,
+                              "type": "SELECT_WIDGET",
+                              "serverSideFiltering": false,
+                              "hideCard": false,
+                              "defaultOptionValue": "{{selectCurrentrecord.data[0].CUSTOMER_ISGSTINVOICING_ADDRESS}}",
+                              "animateLoading": true,
+                              "parentColumnSpace": 8.380950927734375,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 11,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultOptionValue"
+                                },
+                                {
+                                  "key": "accentColor"
+                                },
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "labelPosition": "Left",
+                              "options": "[\n  {\n    \"label\": \"Registered Address\",\n    \"value\": \"registeredaddress\"\n  },\n  {\n    \"label\": \"Communication Address\",\n    \"value\": \"communicationaddress\"\n  }\n]",
+                              "placeholderText": "Select option",
+                              "isDisabled": "{{appsmith.store.viewOnly}}",
+                              "key": "ulwwi0buhe",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": true,
+                              "rightColumn": 31,
+                              "widgetId": "krhhzdtgee",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisible": true,
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "labelAlignment": "left",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Text13",
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 55,
+                              "bottomRow": 59,
+                              "parentRowSpace": 10,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "parentColumnSpace": 8.380950927734375,
+                              "dynamicTriggerPathList": [],
+                              "fontFamily": "System Default",
+                              "leftColumn": 35,
+                              "dynamicBindingPathList": [],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "GSTIN /TAXID",
+                              "key": "o6k2y2rcuj",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 43,
+                              "textAlign": "LEFT",
+                              "widgetId": "jnqpaiupys",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#231F20",
+                              "version": 1,
+                              "parentId": "cl7oemxtid",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "InputGSTTAXID",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "displayName": "Input",
+                              "iconSVG": "/static/media/icon.9f505595.svg",
+                              "topRow": 55,
+                              "bottomRow": 59,
+                              "parentRowSpace": 10,
+                              "labelWidth": 5,
+                              "autoFocus": false,
+                              "type": "INPUT_WIDGET_V2",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 8.380950927734375,
+                              "dynamicTriggerPathList": [],
+                              "resetOnSubmit": true,
+                              "leftColumn": 43,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "accentColor"
+                                },
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "labelPosition": "Left",
+                              "labelStyle": "",
+                              "inputType": "TEXT",
+                              "isDisabled": "{{appsmith.store.viewOnly}}",
+                              "key": "6ywwtnlm78",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": true,
+                              "rightColumn": 63,
+                              "widgetId": "hru7ndzsow",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisible": true,
+                              "label": "",
+                              "version": 2,
+                              "parentId": "cl7oemxtid",
+                              "labelAlignment": "left",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "iconAlign": "left",
+                              "defaultText": "{{selectCurrentrecord.data[0].CUSTOMER_ADDRESS_GSTTAXID}}"
+                            }
+                          ],
+                          "key": "pv4eoqzusa",
+                          "labelTextSize": "0.875rem",
+                          "rightColumn": 330,
+                          "detachFromLayout": true,
+                          "widgetId": "cl7oemxtid",
+                          "containerStyle": "none",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "x42cqxwp65",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "borderRadius": "0px"
+                        }
+                      ],
+                      "key": "bsxqwtoi3h",
+                      "labelTextSize": "0.875rem",
+                      "backgroundColor": "white",
+                      "rightColumn": 61,
+                      "widgetId": "x42cqxwp65",
+                      "isVisible": true,
+                      "parentId": "09rmpj9gez",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px"
+                    }
+                  ],
+                  "key": "pv4eoqzusa",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 337.5,
+                  "detachFromLayout": true,
+                  "widgetId": "09rmpj9gez",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "zdr1i7e0r9",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "borderWidth": "0",
+              "key": "jeatkyv5p2",
+              "labelTextSize": "0.875rem",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 63,
+              "widgetId": "zdr1i7e0r9",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0px"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Table1",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "customerEntityOIDForAddress"
+              ],
+              "isVisibleDownload": true,
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "iconSVG": "/static/media/icon.db8a9cbd.svg",
+              "topRow": 91,
+              "bottomRow": 119,
+              "isSortable": true,
+              "parentRowSpace": 10,
+              "type": "TABLE_WIDGET",
+              "defaultSelectedRow": "0",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.3125,
+              "dynamicTriggerPathList": [],
+              "dynamicBindingPathList": [
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.customerEntityOIDForAddress.computedValue"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "leftColumn": 10,
+              "primaryColumns": {
+                "customerEntityOIDForAddress": {
+                  "index": 0,
+                  "width": 150,
+                  "id": "customerEntityOIDForAddress",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "customerEntityOIDForAddress",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.customerEntityOIDForAddress))}}",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
+                }
+              },
+              "delimiter": ",",
+              "key": "b5xslqz0az",
+              "derivedColumns": {},
+              "labelTextSize": "0.875rem",
+              "rightColumn": 44,
+              "textSize": "0.875rem",
+              "widgetId": "yjs5bbvp3a",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisibleFilters": true,
+              "tableData": "{{isNonCorpCustomerAddressExists.data}}",
+              "isVisible": false,
+              "label": "Data",
+              "searchKey": "",
+              "enableClientSideSearch": true,
+              "version": 3,
+              "totalRecordsCount": 0,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": true,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                }
+              },
+              "borderRadius": "0px",
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER",
+              "columnSizeMap": {
+                "task": 245,
+                "step": 62,
+                "status": 75
+              }
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Modal1",
+              "isCanvas": true,
+              "displayName": "Modal",
+              "iconSVG": "/static/media/icon.4975978e.svg",
+              "topRow": 0,
+              "bottomRow": 0,
+              "parentRowSpace": 1,
+              "type": "MODAL_WIDGET",
+              "hideCard": false,
+              "shouldScrollContents": true,
+              "animateLoading": true,
+              "parentColumnSpace": 1,
+              "leftColumn": 0,
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas3",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 0,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": true,
+                  "hideCard": true,
+                  "shouldScrollContents": false,
+                  "minHeight": 0,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "IconButton2",
+                      "onClick": "{{closeModal('Modal1')}}",
+                      "buttonColor": "#2E3D49",
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634a.svg",
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "leftColumn": 56,
+                      "iconSize": 24,
+                      "isDisabled": false,
+                      "key": "lu3rgbn0cr",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "iconName": "cross",
+                      "widgetId": "qghfwmlx53",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "egd6lcazcm",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "buttonVariant": "TERTIARY"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Text6",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 1,
+                      "bottomRow": 5,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Modal Title",
+                      "key": "95mmmwqs3w",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 41,
+                      "textAlign": "LEFT",
+                      "widgetId": "ia4bcxurqe",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "egd6lcazcm",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Button7",
+                      "onClick": "{{closeModal('Modal1')}}",
+                      "buttonColor": "#03B365",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca02633.svg",
+                      "topRow": 16,
+                      "bottomRow": 20,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "leftColumn": 36,
+                      "text": "Close",
+                      "isDisabled": false,
+                      "key": "akxtj10toy",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 48,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "3ck5t13ex5",
+                      "buttonStyle": "PRIMARY",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "egd6lcazcm",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "buttonVariant": "SECONDARY",
+                      "placement": "CENTER"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Button8",
+                      "buttonColor": "#03B365",
+                      "displayName": "Button",
+                      "iconSVG": "/static/media/icon.cca02633.svg",
+                      "topRow": 16,
+                      "bottomRow": 20,
+                      "type": "BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "leftColumn": 48,
+                      "text": "Confirm",
+                      "isDisabled": false,
+                      "key": "akxtj10toy",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 60,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "hrjhjymqgd",
+                      "buttonStyle": "PRIMARY_BUTTON",
+                      "isVisible": true,
+                      "recaptchaType": "V3",
+                      "version": 1,
+                      "parentId": "egd6lcazcm",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "buttonVariant": "PRIMARY",
+                      "placement": "CENTER"
+                    }
+                  ],
+                  "isDisabled": false,
+                  "key": "efx8sh68dk",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 0,
+                  "detachFromLayout": true,
+                  "widgetId": "egd6lcazcm",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "yjj4buvjll",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "key": "oqckvckt82",
+              "height": 240,
+              "labelTextSize": "0.875rem",
+              "rightColumn": 0,
+              "detachFromLayout": true,
+              "widgetId": "yjj4buvjll",
+              "canOutsideClickClose": true,
+              "canEscapeKeyClose": true,
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "width": 456
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "India Non Corporate Address_isNonCorpCustomerAddressExists",
+              "name": "isNonCorpCustomerAddressExists",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.customerOID"
+              ],
+              "timeoutInMillisecond": 35000
+            }
+          ],
+          [
+            {
+              "id": "India Non Corporate Address_selectCurrentrecord",
+              "name": "selectCurrentrecord",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.customerOID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "validOnPageLoadActions": true,
+        "id": "India Non Corporate Address",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "gitSyncId": "61d08dd5a4437918c01f9d15_61d31d9fa4437918c01fadc6"
+}

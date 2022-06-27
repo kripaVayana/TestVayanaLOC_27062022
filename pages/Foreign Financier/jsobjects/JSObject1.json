@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Foreign Financier",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyUpdateandNavigateFun1: async () => {\n\t\t//write code here\n\t\t\tif(SelectConstType.selectedOptionValue==\"others\")\n\t\t\t{\n\t\t\t\tstoreValue(\"vayIfFgnConstOthers\",\"true\");\n\t\t\t\tstoreValue(\"vayFgnConstitution\",InputConstTypeOthers.text)\n\t\t\t\tstoreValue(\"vayApplicationIndConstitutionType\",SelectConstType.selectedOptionValue)\n\t\t\t}\n\t\telse\n\t{\n\t\tstoreValue(\"vayIfFgnConstOthers\",\"false\");\n\t\t\t\tstoreValue(\"vayFgnConstitution\",SelectConstType.selectedOptionValue)\n\t\tstoreValue(\"vayApplicationIndConstitutionType\",SelectConstType.selectedOptionValue)\n\t}\n\tshowAlert(\"Updating Data....\");\n\t\tawait UpdateBusinessFinancierDetails.run();\n\t\tnavigateTo('Foreign Business Address', {})\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "Foreign Financier_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6278efab16fee6216658d507_62839dd216fee6216658da67"
+}

@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "LogInGuestUser",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\nmyFungenrateOTP: async(nextPage,currentExistOID,fromPage) => {\n\t/*await chkUserExist.run();\n//showAlert(chkUserExist.run())\n{{ if(chkUserExist.data.data.userPresent)\n{\n\tstoreValue('username',vayApplicantEmail.text);\n\t\tnavigateTo('LogInByPassword');\n\t}\n else\n\t {*/\n\t\t//showAlert(vartemp);\n\t\t     \tvar digits = '0123456789';\n    let OTP = '';\n    for (let i = 0; i < 4; i++ ) {\n        OTP += digits[Math.floor(Math.random() * 10)];\n    }    \n\t\t storeValue('OTPval',OTP);\n\t\t SendEmailTo.run();\n\t\t storeValue('username',vayApplicantEmail.text);\n\t\t showAlert('OTP Generated and sent to the Email');\n\t\t navigateTo('LogInConfirmOTP',{'userName':vayApplicantEmail.text,'nextPage':nextPage,'currentOID' :currentExistOID, 'fromPage':fromPage });\t\t\t\t\t\n\t //}\n \n //}}\t\n\t},\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "LogInGuestUser_JSObject1",
+  "deleted": false,
+  "gitSyncId": "62a9bc2e4b7fea61c72d81d3_62b43d5ff27eea3f77c0bf9f"
+}

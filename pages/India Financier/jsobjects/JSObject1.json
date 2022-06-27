@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "India Financier",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: async () => {\n\t\t//Call CIN API to get the address\n\t\tawait selectCINDetails.run();\n\t\tstoreValue('vayIndCCIN', InputCIN.text);\n\t\tstoreValue('vayCinRegAddrr1',selectCINDetails.data[0].CIN_ADDRESS_LINE1);\n\t\tstoreValue('vayCinRegAddrr2',selectCINDetails.data[0].CIN_ADDRESS_LINE2);\n\t\tstoreValue('vayCinRegCity',selectCINDetails.data[0].CIN_ADDRESS_CITY);\n\t\tstoreValue('vayCinRegDistrict',selectCINDetails.data[0].CIN_ADDRESS_DISTRICT);\n\t\t\tstoreValue('vayCinRegState',selectCINDetails.data[0].CIN_ADDRESS_STATE);\n\t\tstoreValue('vayCinRegCountry',selectCINDetails.data[0].CIN_ADDRESS_COUNTRY);\n\t\t\tstoreValue('vayCinRegPinCode',selectCINDetails.data[0].CIN_ADDRESS_ZIP);\t\n\t\t\tstoreValue('vayCinRegPlace',selectCINDetails.data[0].CIN_REG_PLACE);\n\t\tstoreValue('vayCinRegDate',selectCINDetails.data[0].CIN_REG_DATE);\t\t\n\t\t//showAlert(appsmith.store.vayCinRegAddrr1 + appsmith.store.vayCinRegAddrr2)\n\t\tUpdateBusinessFinancierDetails.run();\t\t\n\t\t\tnavigateTo('India Corporate Address', {});\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "India Financier_JSObject1",
+  "deleted": false,
+  "gitSyncId": "62861ecef4ee222f785ff32b_628c410b72b49775ce4e89f0"
+}

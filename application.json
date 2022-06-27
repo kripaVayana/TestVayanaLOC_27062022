@@ -1,0 +1,283 @@
+{
+  "pages": [
+    {
+      "id": "Entity KYC Ind Proprietorship",
+      "isDefault": false
+    },
+    {
+      "id": "Individual KYC Summary",
+      "isDefault": false
+    },
+    {
+      "id": "Key Person Summary",
+      "isDefault": false
+    },
+    {
+      "id": "LogInConfirmOTP",
+      "isDefault": false
+    },
+    {
+      "id": "LogInGuestUser",
+      "isDefault": true
+    },
+    {
+      "id": "LogInOpsUser",
+      "isDefault": false
+    },
+    {
+      "id": "Application Signing",
+      "isDefault": false
+    },
+    {
+      "id": "India Corporate Address",
+      "isDefault": false
+    },
+    {
+      "id": "India Non Corporate Address",
+      "isDefault": false
+    },
+    {
+      "id": "Foreign Business Address",
+      "isDefault": false
+    },
+    {
+      "id": "UBO Entities Summary",
+      "isDefault": false
+    },
+    {
+      "id": "Bank Account Information List",
+      "isDefault": false
+    },
+    {
+      "id": "Key Person Add India",
+      "isDefault": false
+    },
+    {
+      "id": "Currencies",
+      "isDefault": false
+    },
+    {
+      "id": "Application Form - Foreign",
+      "isDefault": false
+    },
+    {
+      "id": "Individual KYC India Add",
+      "isDefault": false
+    },
+    {
+      "id": "Auth Signatory Summary",
+      "isDefault": false
+    },
+    {
+      "id": "New Application",
+      "isDefault": false
+    },
+    {
+      "id": "eSign Selection",
+      "isDefault": false
+    },
+    {
+      "id": "Key Person Add Foreign",
+      "isDefault": false
+    },
+    {
+      "id": "UBO Individuals Summary",
+      "isDefault": false
+    },
+    {
+      "id": "Add New Address Indian",
+      "isDefault": false
+    },
+    {
+      "id": "Auth Signatory Add India",
+      "isDefault": false
+    },
+    {
+      "id": "UBO Entities Add",
+      "isDefault": false
+    },
+    {
+      "id": "Form Submission",
+      "isDefault": false
+    },
+    {
+      "id": "All Constitution Foreign",
+      "isDefault": false
+    },
+    {
+      "id": "Entity Administrator Add",
+      "isDefault": false
+    },
+    {
+      "id": "Bank Account Information",
+      "isDefault": false
+    },
+    {
+      "id": "Application Submission Success",
+      "isDefault": false
+    },
+    {
+      "id": "Entity KYC Foreign",
+      "isDefault": false
+    },
+    {
+      "id": "Application Form - India",
+      "isDefault": false
+    },
+    {
+      "id": "Auth Signatory Add Foreign",
+      "isDefault": false
+    },
+    {
+      "id": "Application List View",
+      "isDefault": false
+    },
+    {
+      "id": "India - Non Corporate",
+      "isDefault": false
+    },
+    {
+      "id": "Homepage",
+      "isDefault": false
+    },
+    {
+      "id": "Entity KYC Ind LLP",
+      "isDefault": false
+    },
+    {
+      "id": "Entity KYC Ind Company",
+      "isDefault": false
+    },
+    {
+      "id": "UBO Individual Addition",
+      "isDefault": false
+    },
+    {
+      "id": "Entity Administrator Summary",
+      "isDefault": false
+    },
+    {
+      "id": "India - Corporate",
+      "isDefault": false
+    },
+    {
+      "id": "Entity KYC Ind Partnership",
+      "isDefault": false
+    },
+    {
+      "id": "Individual KYC Foreign Add",
+      "isDefault": false
+    },
+    {
+      "id": "ShowApplicationDraft",
+      "isDefault": false
+    },
+    {
+      "id": "LogInByPassword",
+      "isDefault": false
+    },
+    {
+      "id": "Entity KYC Foreign Copy",
+      "isDefault": false
+    },
+    {
+      "id": "Related Individuals",
+      "isDefault": false
+    },
+    {
+      "id": "TestCurrencies",
+      "isDefault": false
+    },
+    {
+      "id": "Verification Business KYC",
+      "isDefault": false
+    },
+    {
+      "id": "Official Use Only",
+      "isDefault": false
+    },
+    {
+      "id": "Due Diligence",
+      "isDefault": false
+    },
+    {
+      "id": "Verification Individual Summar",
+      "isDefault": false
+    },
+    {
+      "id": "Verification Business Form",
+      "isDefault": false
+    },
+    {
+      "id": "Verification Individual KYC",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
+    },
+    {
+      "id": "Foreign Financier",
+      "isDefault": false
+    },
+    {
+      "id": "Verification Individual Form",
+      "isDefault": false
+    },
+    {
+      "id": "India Financier",
+      "isDefault": false
+    },
+    {
+      "id": "Entity KYC Ind Financier",
+      "isDefault": false
+    },
+    {
+      "id": "Entity KYC Foreign Financier",
+      "isDefault": false
+    },
+    {
+      "id": "TestAuthorise",
+      "isDefault": false
+    },
+    {
+      "id": "Page for Query",
+      "isDefault": false
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
+    },
+    {
+      "id": "Page3",
+      "isDefault": false
+    },
+    {
+      "id": "Related Individual Summary",
+      "isDefault": false
+    },
+    {
+      "id": "Bank Account Info Summary",
+      "isDefault": false
+    },
+    {
+      "id": "AddSettlementBank",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#FFEBFB",
+  "icon": "product",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Official Use Only",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tonFileUploadClick: async () => {\n\t\tif(selectOUFileQuery.data.length > 0) {\n\t\t\tawait deleteOUFileQuery.run(undefined, undefined, {\n\t\t\t\tpath: selectOUFileQuery.data[0].fileName\n\t\t\t});\n\t\t}\n\t\tawait uploadOUFileQuery.run();\n\t\tawait selectOUFileQuery.run();\n\t\tresetWidget('Form2');\n\t\tshowAlert('File Uploaded Successfully');\n\t},\n\tgetFileName: () => {\n\t\treturn selectOUFileQuery?.data[0]?.fileName.split('__')[1];\n\t},\n\t\n\tdeleteClick: async () => {\n\t\tawait deleteOUFileQuery.run(undefined, undefined, {\n\t\t\tpath: selectOUFileQuery.data[0].fileName\n\t\t});\n\t\tawait selectOUFileQuery.run();\n\t},\n\tdownloadFile: async () => {\n\t\tconst fileName = this.getFileName();\n\t\tshowAlert(`Downloading File: ${fileName}`);\n\t\tawait storeValue('tempfileName', fileName);\n\t\tawait downloadOUFileQuery.run(()=> {\n\t\t\t\tdownload(atob(downloadOUFileQuery.data.fileData), appsmith.store.tempfileName);\n\t\t\t}, undefined, {\n\t\t\tpath: selectOUFileQuery.data[0].fileName\n\t\t});\n\t},\n\t\n\tonSaveClick: async () => {\n\t\tif(appsmith.store.userRole === 'Maker') {\n\t\t\tif(selectOUDataQuery.data && selectOUDataQuery.data.length > 0) {\n\t\t\tawait updateMakerQuery.run();\n\t\t} else {\n\t\t\tawait insertMakerQuery.run();\n\t\t}\n\t\t} else {\n\t\t\tawait updateCheckerQuery.run();\n\t\t}\n\t\tawait selectOUDataQuery.run();\n\t},\n\t\n\tgetProccedLabel: () => {\n\t\treturn appsmith.store.userRole === 'Maker' ? 'Verify and Proceed' : 'Authorise';\n\t}\n\t\n}",
+    "variables": []
+  },
+  "id": "Official Use Only_JSObject1",
+  "deleted": false,
+  "gitSyncId": "62861ecef4ee222f785ff32b_628bcf6f72b49775ce4e89af"
+}

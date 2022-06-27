@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Helper",
+    "pageId": "Application List View",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\thandleDraftApplication: () => {\n\t\tstoreValue( \"vayCountryofRegistration\", Table1.selectedRow.CUSTOMER_COUNTRY_CODE);\n\t\tstoreValue( \"vayApplicationIndConstitutionType\", Table1.selectedRow.CUSTOMER_BUSINESS_CONST_TYPE);\n\t\tstoreValue(\"vayApplicantRole\", Table1.selectedRow.CUSTOMER_PARTICIPANT_TYPE);\t\t\n\t\tstoreValue(\"vayApplicantJurisdiction\",Table1.selectedRow.CUSTOMER_COUNTRY_CODE);\n\t\tif (Table1.selectedRow.CUSTOMER_COUNTRY_CODE === 'IN')\n\t\t\t{\n\t\t\t\tif ( Table1.selectedRow.CUSTOMER_PARTICIPANT_TYPE === 'Financier')\n\t\t\t\t\t{\n\t\t\t\t\t\t\t\tnavigateTo('ShowApplicationDraft',{'currentOID':currentRow.OID , 'fromPage':'India Financier'});\t\t\t\n\t\t\t\t\t}\n\t\t\t\telse\n\t\t\t\t\t{\n\t \t\t\tif (Table1.selectedRow.CUSTOMER_BUSINESS_CONST_TYPE === 'Proprietorship' || \n\t\t\t\tTable1.selectedRow.CUSTOMER_BUSINESS_CONST_TYPE === 'partnership') {\n\t\t\t//\tstoreValue( \"vayApplicantJurisdiction\", 'IN')\n\t\t\t//showAlert(\"NonCorp\")\n\t\t\tnavigateTo('ShowApplicationDraft',{'currentOID':currentRow.OID , 'fromPage':'India - Non Corporate'});\n\t \t\t} else if (Table1.selectedRow.CUSTOMER_BUSINESS_CONST_TYPE === 'Public Limited Company' || \n\t\t\t\t\t\t\t Table1.selectedRow.CUSTOMER_BUSINESS_CONST_TYPE === 'LLC' || \n\t\t\t\t\t\t\t Table1.selectedRow.CUSTOMER_BUSINESS_CONST_TYPE === 'LLP') {\n\t\t//\tstoreValue( \"vayApplicantJurisdiction\", 'IN')\n\t\t\tnavigateTo('ShowApplicationDraft',{'currentOID':currentRow.OID , 'fromPage':'India - Corporate'})\t\n\t\t\t//navigateTo('', {})\n\t \t\t\t} \n\t\t\t\t\t}\n\t\t\t}\n\t\telse {\n\t\t\t//storeValue( \"vayApplicantJurisdiction\", 'NotIN')\n\t\t\tnavigateTo('ShowApplicationDraft',{'currentOID':currentRow.OID , 'fromPage':'All Constitution Foreign'})\t\n\t\t\t//navigateTo('All Constitution Foreign', {})\n\t }\n\t},\n\teditApplicationFormData: () => {\t\t\n\t\t// console.log(Table1.selectedRow.CUSTOMER_COUNTRY_CODE);\n\t\t// console.log(Table1.selectedRow.CUSTOMER_BUSINESS_CONST_TYPE);\n\t\tconst appStatus = appsmith.URL.queryParams.paramStatus;\n\t\tif(appStatus === 'E_STATUS_INVERIFICATION' || appStatus === 'E_STATUS_INAUTHORISATION' ) {\n\t\t\tstoreValue('customerOID', currentRow.OID);\n\t\t\tstoreValue('customerJID', currentRow.CUSTOMER_REGISTERED_ENTITY_INDFOREIGN);\n\t\t\tnavigateTo('Verification Business KYC');\n\t\t} else if(appStatus === 'E_STATUS_DRAFT') {\n\t\t\tthis.handleDraftApplication();\n\t\t}\n\t \n\t\t//\tnavigateTo('ShowApplicationDraftForeign',{\"currentOID\": currentRow.OID,\"fromPage\":'Application List View'})\t\n\n\t},\n\t navigateToSigning : () =>\n\t\t{\n\t\t\t\tstoreValue('customerOID', currentRow.OID);\n\t\t\t\tnavigateTo('Application Signing', {})\n\t\t}\n\t\n}",
+    "variables": []
+  },
+  "id": "Application List View_Helper",
+  "deleted": false,
+  "gitSyncId": "622b3cb95634651c919ec65d_6230b5ba00d0314b75318086"
+}

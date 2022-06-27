@@ -1,0 +1,38 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Verification Individual Form",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tdocShortForms: {\n    'POI': 'Proof of Identification',\n    'POA': 'Proof of Address',\n    'PAN': 'PAN',\n    'CC': 'Cancelled Cheque',\n    'IEC': 'Import Export Certificate',\n    'PD': 'PartnerShip Deed',\n    'PL': 'Partnership Letter',\n    \n    'COI': 'Certificate of Incorporation',\n    'MAA':'Memorandum & Article of Association',\n    'LDIR': 'List of Directors with DIN',\n    'BR': 'Board Resolution',\n    'BOD': 'Beneficial ownership declaration',\n    \n    'PD1': 'Entity Proof Document 1',\n    'PD2':'Entity Proof Document 2',\n    'PHT': 'Photo',\n    \n    'LPDPIN': 'List of Partners with DPIN',\n    'LLPBR': 'LLP Board Resolution'\n\t},\n\tgetFolderPrefix: () => appsmith.store.customerJID === 'IN' ? 'IndIndiaKYC' : 'IndFgnKYC',\n\tgetKYCDocListPath: () => `${appsmith.store.FilePath}/${appsmith.store.customerOID}_${this.getFolderPrefix()}_${appsmith.store.keyPersonOID}/`,\n\tgetTableData: () => {\n\t\treturn ListKYCDocQuery.data.map((entry) => {\n\t\t\tconst dirs = entry.fileName.split(\"/\");\n\t\t\tconst fileDetails = dirs[2].split(\"__\");\n\t\t\treturn {\n\t\t\t\tDocumentType: this.docShortForms[fileDetails[0]],\n\t\t\t\tDocumentName: fileDetails.length === 3 ? fileDetails[1] : '-',\n\t\t\t\tFileName: fileDetails[fileDetails.length - 1],\n\t\t\t\tDownload: '',\n\t\t\t\tpath: entry.fileName,\n\t\t\t\tdocTypeCode: fileDetails[0],\n\t\t\t\tdocName: fileDetails.length === 3 ? fileDetails[1] : null,\n\t\t\t\tverFilePrefix: entry.fileName.split(\"__\")[0].replace(\"_\", \"_VER_\"),\n\t\t\t};\n\t\t});\n\t},\n\t\t\n\tgetFormRecord: (userRole) => {\n\t\treturn listDocVerStatuses.data.find(item => item.VERIFIED_BY_ROLE === userRole);\t\n\t},\n\t\n\tdownloadFile: async (fileName, path) => {\n\t\tshowAlert(`Downloading File: ${fileName}`);\n\t\tawait storeValue('tempfileName', fileName);\n\t\tawait downloadFileQuery.run(()=> {\n\t\t\tdownload(atob(downloadFileQuery.data.fileData), appsmith.store.tempfileName);\n\t\t}, undefined, {\n\t\t\tpath: path\n\t\t});\n\t},\n\tonSaveNextClick: async () => {\n\t\tconst userRole = appsmith.store.userRole;\n\t\tconst status = userRole === 'Maker' ? Select1.selectedOptionValue : Select2.selectedOptionValue;\n\t\tconst comment = userRole === 'Maker' ? Input19.text : '';\n\t\tconst formData = this.getFormRecord(userRole);\n\t\tif(formData) {\n\t\t\tawait showAlert(''+formData.ID);\n\t\t\tshowAlert('Update');\n\t\t\tawait updateDocVerStatus.run(null, null, {\n\t\t\t\tid: formData.ID,\n\t\t\t\tstatus, comment\n\t\t\t});\n\t\t} else {\n\t\t\tshowAlert('Insert');\n\t\t\tawait insertDocVerStatus.run(null, null, {\n\t\t\t\tstatus, comment\n\t\t\t});\n\t\t}\n\t\tshowAlert('Status Updated!');\n\t\tnavigateTo('Verification Individual Summar', {});\n\t}\n}",
+    "variables": [
+      {
+        "name": "docShortForms",
+        "value": {
+          "POI": "Proof of Identification",
+          "POA": "Proof of Address",
+          "PAN": "PAN",
+          "CC": "Cancelled Cheque",
+          "IEC": "Import Export Certificate",
+          "PD": "PartnerShip Deed",
+          "PL": "Partnership Letter",
+          "COI": "Certificate of Incorporation",
+          "MAA": "Memorandum & Article of Association",
+          "LDIR": "List of Directors with DIN",
+          "BR": "Board Resolution",
+          "BOD": "Beneficial ownership declaration",
+          "PD1": "Entity Proof Document 1",
+          "PD2": "Entity Proof Document 2",
+          "PHT": "Photo",
+          "LPDPIN": "List of Partners with DPIN",
+          "LLPBR": "LLP Board Resolution"
+        }
+      }
+    ]
+  },
+  "id": "Verification Individual Form_JSObject1",
+  "deleted": false,
+  "gitSyncId": "624b155c4eae7255ccdd4d5d_6273bd19d466167adced7081"
+}

@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Entity KYC Ind Financier",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tdocShortForms: {\n\t\t'COI': 'Certificate of Incorporation',\n\t\t'MAA':'Memorandum & Article of Association',\n\t\t'PAN': 'PAN',\n\t\t\n\t\t'POA': 'Proof of Address',\n\t\t\n\t\t'BR': 'Board Resolution',\n\t\t'RLN': 'Regulators License No',\n\t\t'DPA': 'Delegated Power of Authority'\t\t\n\t},\n\tgetUploadPath: (docType, fileName, docName) => {\n\t\t\n\t\tconst docNameStr = docName ? `__${docName}` : '';\n\t\treturn `${appsmith.store.FilePath}/${appsmith.store.customerOID}_EntityIndFin/${docType}${docNameStr}__${fileName}`;\n\t},\n\t\n\tgetOldFilePath: (docType) => {\n\t\t\tconst list = listKYCDocQuery.data.filter((entry) => {\n\t\t\tconst dirs = entry.fileName.split(\"/\");\n\t\t\treturn dirs[2].startsWith(docType);\n\t\t\t});\n\t\t\treturn list.length > 0 ? list[0].fileName : null;\n\t},\n\t\n\tdeleteIfFileExist: async (docType) => {\n\t\t\tconst oldFilePath = this.getOldFilePath(docType);\n\t\t\n\t\t\tif(oldFilePath !== null) {\n\t\t\t\tawait deleteFileQuery.run(undefined, undefined, {\n\t\t\t\t\t\tpath: oldFilePath\n\t\t\t\t});\n\t\t\t}\n\t},\n\t\n\tonSaveClick: async () => {\n\t\tif(FilePicker1.files.length === 1) {\n\t\t\tawait this.deleteIfFileExist('COI');\t\n\t\t\tawait uploadCOIQuery.run();\n\t\t}\n\n\t\tif(FilePicker2.files.length === 1) {\n\t\t\tawait this.deleteIfFileExist('MAA');\n\t\t\tawait uploadMAAQuery.run();\n\t\t}\n\t\tif(FilePicker3.files.length === 1) {\n\t\t\tawait this.deleteIfFileExist('PAN');\n\t\t\tawait uploadPANQuery.run();\n\t\t}\n\t\t\n\t\tif(FilePicker4.files.length === 1) {\n\t\t\tawait this.deleteIfFileExist('POA');\n\t\t\tawait uploadPOAQuery.run();\n\t\t}\n\t\t\n\t\tif(FilePicker5.files.length === 1) {\n\t\t\tawait this.deleteIfFileExist('BR');\n\t\t\tawait uploadBRQuery.run();\n\t\t}\n\t\tif(FilePicker6.files.length === 1) {\n\t\t\tawait this.deleteIfFileExist('RLN');\n\t\t\tawait uploadRLNQuery.run();\n\t\t}\n\t\tif(FilePicker7.files.length === 1) {\n\t\t\tawait this.deleteIfFileExist('DPA');\n\t\t\tawait uploadDPAQuery.run();\n\t\t}\n\t\t\n\t\tshowAlert('File(s) Uploaded SuccessFully!');\n\t\tnavigateTo('Individual KYC Summary');\n\t},\n\t\n\tgetTableData: () => {\n\t\treturn listKYCDocQuery.data.map((entry) => {\n\t\t\tconst dirs = entry.fileName.split(\"/\");\n\t\t\tconst fileDetails = dirs[2].split(\"__\");\n\t\t\treturn {\n\t\t\t\tDocumentType: this.docShortForms[fileDetails[0]],\n\t\t\t\tDocumentName: fileDetails.length === 3 ? fileDetails[1] : '-',\n\t\t\t\tFileName: fileDetails[fileDetails.length - 1],\n\t\t\t\tDownload: '',\n\t\t\t\tRemove: '',\n\t\t\t\tpath: entry.fileName\n\t\t\t};\n\t\t});\n\t},\n\t\n\tdownloadFile: async (fileName, path) => {\n\t\tshowAlert(`Downloading file: ${fileName}`);\n\t\tconst name = fileName;\n\t\tawait storeValue('tempfileName', fileName);\n\t\tawait downloadFileQuery.run(()=> {\n\t\t\t\tdownload(atob(downloadFileQuery.data.fileData), appsmith.store.tempfileName);\n\t\t\t}, undefined, {\n\t\t\tpath: path\n\t\t});\n\t},\n\tremoveFile: async (path) => {\n\t\tawait deleteFileQuery.run(() => {\n\t\t\tlistKYCDocQuery.run();\n\t\t}, undefined, {\n\t\t\tpath: path\n\t\t});\n\t},\n\t\n\t\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "docShortForms",
+        "value": {}
+      }
+    ]
+  },
+  "id": "Entity KYC Ind Financier_JSObject1",
+  "deleted": false,
+  "gitSyncId": "62861ecef4ee222f785ff32b_628639d4f4ee222f785ff6bf"
+}

@@ -1,0 +1,1062 @@
+{
+  "unpublishedPage": {
+    "name": "Due Diligence",
+    "slug": "due-diligence",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 912,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 810,
+          "containerStyle": "none",
+          "snapRows": 63,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 59,
+          "minHeight": 640,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "Container1",
+              "borderColor": "transparent",
+              "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3.svg",
+              "topRow": 0,
+              "bottomRow": 79,
+              "parentRowSpace": 10,
+              "type": "CONTAINER_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 14.0625,
+              "leftColumn": 0,
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas1",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 780,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "children": [
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Image1",
+                      "displayName": "Image",
+                      "iconSVG": "/static/media/icon.52d8fb96.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "IMAGE_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 13.75,
+                      "dynamicTriggerPathList": [],
+                      "imageShape": "RECTANGLE",
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [],
+                      "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+                      "key": "p6fdp3nhxk",
+                      "labelTextSize": "0.875rem",
+                      "image": "https://sandbox.vtx.vayana.com/ITFS_UAT_APP/images/logo.png",
+                      "rightColumn": 13,
+                      "objectFit": "contain",
+                      "widgetId": "ks6ybnp57u",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "glgexcwchq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "maxZoomLevel": 1,
+                      "enableDownload": false,
+                      "borderRadius": "0px",
+                      "enableRotation": false
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Form1",
+                      "isCanvas": true,
+                      "displayName": "Form",
+                      "iconSVG": "/static/media/icon.ea3e08d1.svg",
+                      "topRow": 4,
+                      "bottomRow": 76,
+                      "parentRowSpace": 10,
+                      "type": "FORM_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 13.75,
+                      "leftColumn": 1,
+                      "children": [
+                        {
+                          "boxShadow": "none",
+                          "widgetName": "Canvas2",
+                          "displayName": "Canvas",
+                          "topRow": 0,
+                          "bottomRow": 720,
+                          "parentRowSpace": 1,
+                          "type": "CANVAS_WIDGET",
+                          "canExtend": false,
+                          "hideCard": true,
+                          "minHeight": 400,
+                          "parentColumnSpace": 1,
+                          "leftColumn": 0,
+                          "children": [
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Text1",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "fontSize"
+                                }
+                              ],
+                              "displayName": "Text",
+                              "iconSVG": "/static/media/icon.97c59b52.svg",
+                              "topRow": 1,
+                              "bottomRow": 5,
+                              "type": "TEXT_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "overflow": "NONE",
+                              "dynamicTriggerPathList": [],
+                              "fontFamily": "System Default",
+                              "leftColumn": 0,
+                              "dynamicBindingPathList": [],
+                              "shouldTruncate": false,
+                              "truncateButtonColor": "#FFC13D",
+                              "text": "Due Diligence",
+                              "key": "jyxixsorcj",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 24,
+                              "textAlign": "LEFT",
+                              "widgetId": "2m659dmhbt",
+                              "isVisible": true,
+                              "fontStyle": "BOLD",
+                              "textColor": "#264283",
+                              "version": 1,
+                              "parentId": "daxtakauen",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "fontSize": "1.5rem"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Input1",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isDisabled"
+                                }
+                              ],
+                              "displayName": "Input",
+                              "iconSVG": "/static/media/icon.9f505595.svg",
+                              "topRow": 47,
+                              "bottomRow": 59,
+                              "parentRowSpace": 10,
+                              "autoFocus": false,
+                              "type": "INPUT_WIDGET_V2",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [],
+                              "resetOnSubmit": true,
+                              "leftColumn": 0,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isDisabled"
+                                },
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "accentColor"
+                                }
+                              ],
+                              "labelStyle": "",
+                              "inputType": "TEXT",
+                              "isDisabled": "{{appsmith.store.userRole !== 'Maker'}}",
+                              "key": "qu5zbv6id8",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": false,
+                              "rightColumn": 25,
+                              "widgetId": "rzs8z1hat6",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisible": true,
+                              "label": "Maker Observations & Clarifications",
+                              "version": 2,
+                              "parentId": "daxtakauen",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "iconAlign": "left",
+                              "defaultText": "{{listDDQuery.data?.find((i) => i.VERIFIED_BY_ROLE === 'Maker').VERIFIED_COMMENTS || ''}}"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Table1",
+                              "defaultPageSize": 0,
+                              "columnOrder": [
+                                "DocumentType",
+                                "DocumentName",
+                                "FileName",
+                                "Download",
+                                "path",
+                                "Remove"
+                              ],
+                              "isVisibleDownload": true,
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "primaryColumns.Download.onClick"
+                                },
+                                {
+                                  "key": "primaryColumns.Remove.isCellVisible"
+                                },
+                                {
+                                  "key": "primaryColumns.Remove.onClick"
+                                }
+                              ],
+                              "displayName": "Table",
+                              "iconSVG": "/static/media/icon.db8a9cbd.svg",
+                              "topRow": 18,
+                              "bottomRow": 46,
+                              "isSortable": true,
+                              "parentRowSpace": 10,
+                              "type": "TABLE_WIDGET",
+                              "defaultSelectedRow": "0",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "primaryColumns.Download.onClick"
+                                },
+                                {
+                                  "key": "primaryColumns.Remove.onClick"
+                                }
+                              ],
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "primaryColumns.Download.computedValue"
+                                },
+                                {
+                                  "key": "tableData"
+                                },
+                                {
+                                  "key": "primaryColumns.DocumentName.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.FileName.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.path.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.DocumentType.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.Remove.computedValue"
+                                },
+                                {
+                                  "key": "primaryColumns.Remove.isCellVisible"
+                                },
+                                {
+                                  "key": "accentColor"
+                                }
+                              ],
+                              "leftColumn": 0,
+                              "primaryColumns": {
+                                "Download": {
+                                  "index": 3,
+                                  "width": 150,
+                                  "id": "Download",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "iconButton",
+                                  "textSize": "0.875rem",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "Download",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Download))}}",
+                                  "iconName": "cloud-download",
+                                  "borderRadius": "0.375rem",
+                                  "buttonColor": "#264283",
+                                  "onClick": "{{JSObject1.downloadFile(currentRow.FileName, currentRow.path)}}",
+                                  "boxShadow": "none"
+                                },
+                                "DocumentName": {
+                                  "index": 0,
+                                  "width": 150,
+                                  "id": "DocumentName",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "0.875rem",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "DocumentName",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.DocumentName))}}",
+                                  "borderRadius": "0px",
+                                  "boxShadow": "none"
+                                },
+                                "FileName": {
+                                  "index": 1,
+                                  "width": 150,
+                                  "id": "FileName",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "0.875rem",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "FileName",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.FileName))}}",
+                                  "borderRadius": "0px",
+                                  "boxShadow": "none"
+                                },
+                                "path": {
+                                  "index": 4,
+                                  "width": 150,
+                                  "id": "path",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "0.875rem",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": false,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "path",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.path))}}",
+                                  "borderRadius": "0px",
+                                  "boxShadow": "none"
+                                },
+                                "DocumentType": {
+                                  "index": 5,
+                                  "width": 150,
+                                  "id": "DocumentType",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "text",
+                                  "textSize": "0.875rem",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": true,
+                                  "isDerived": false,
+                                  "label": "DocumentType",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.DocumentType))}}",
+                                  "borderRadius": "0px",
+                                  "boxShadow": "none"
+                                },
+                                "Remove": {
+                                  "index": 5,
+                                  "width": 150,
+                                  "id": "Remove",
+                                  "horizontalAlignment": "LEFT",
+                                  "verticalAlignment": "CENTER",
+                                  "columnType": "iconButton",
+                                  "textSize": "0.875rem",
+                                  "enableFilter": true,
+                                  "enableSort": true,
+                                  "isVisible": true,
+                                  "isDisabled": false,
+                                  "isCellVisible": "{{Table1.sanitizedTableData.map((currentRow) => ( appsmith.store.userRole == 'Maker'))}}",
+                                  "isDerived": false,
+                                  "label": "Remove",
+                                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Remove))}}",
+                                  "iconName": "remove",
+                                  "buttonColor": "#264283",
+                                  "borderRadius": "0.375rem",
+                                  "onClick": "{{JSObject1.removeFile(currentRow.path)}}",
+                                  "boxShadow": "none"
+                                }
+                              },
+                              "delimiter": ",",
+                              "key": "mhws7zzmpl",
+                              "derivedColumns": {},
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 63,
+                              "textSize": "0.875rem",
+                              "widgetId": "1s4mjj0n9v",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisibleFilters": true,
+                              "tableData": "{{JSObject1.getTableData()}}",
+                              "isVisible": true,
+                              "label": "Data",
+                              "searchKey": "",
+                              "enableClientSideSearch": true,
+                              "version": 3,
+                              "totalRecordsCount": 0,
+                              "parentId": "daxtakauen",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "horizontalAlignment": "LEFT",
+                              "isVisibleSearch": true,
+                              "childStylesheet": {
+                                "button": {
+                                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "boxShadow": "none"
+                                },
+                                "menuButton": {
+                                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "boxShadow": "none"
+                                },
+                                "iconButton": {
+                                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                                  "boxShadow": "none"
+                                }
+                              },
+                              "borderRadius": "0px",
+                              "isVisiblePagination": true,
+                              "verticalAlignment": "CENTER",
+                              "columnSizeMap": {
+                                "task": 245,
+                                "step": 62,
+                                "status": 75,
+                                "Document_Type": 204,
+                                "Document_Name": 201,
+                                "File_Name": 219,
+                                "Download": 98,
+                                "DocumentType": 277
+                              }
+                            },
+                            {
+                              "resetFormOnClick": true,
+                              "boxShadow": "none",
+                              "widgetName": "FormButton2",
+                              "buttonColor": "#264283",
+                              "displayName": "FormButton",
+                              "iconSVG": "/static/media/icon.cca02633.svg",
+                              "topRow": 66,
+                              "bottomRow": 70,
+                              "type": "FORM_BUTTON_WIDGET",
+                              "hideCard": true,
+                              "animateLoading": true,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 47,
+                              "dynamicBindingPathList": [],
+                              "text": "Reset",
+                              "key": "cusnshchse",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 53,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "gyadzkd2kh",
+                              "isVisible": false,
+                              "recaptchaType": "V3",
+                              "version": 1,
+                              "parentId": "daxtakauen",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": false,
+                              "borderRadius": "0px",
+                              "buttonVariant": "SECONDARY"
+                            },
+                            {
+                              "resetFormOnClick": true,
+                              "boxShadow": "none",
+                              "widgetName": "FormButton1",
+                              "onClick": "{{JSObject1.onSaveNextClick()}}",
+                              "buttonColor": "#264283",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "displayName": "FormButton",
+                              "iconSVG": "/static/media/icon.cca02633.svg",
+                              "topRow": 66,
+                              "bottomRow": 70,
+                              "type": "FORM_BUTTON_WIDGET",
+                              "hideCard": true,
+                              "animateLoading": true,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
+                              "leftColumn": 54,
+                              "dynamicBindingPathList": [],
+                              "text": "Save & Next",
+                              "key": "cusnshchse",
+                              "labelTextSize": "0.875rem",
+                              "rightColumn": 61,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "vvut5u0ewb",
+                              "isVisible": true,
+                              "recaptchaType": "V3",
+                              "version": 1,
+                              "parentId": "daxtakauen",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": true,
+                              "borderRadius": "0px",
+                              "buttonVariant": "PRIMARY"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Input3",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Input",
+                              "iconSVG": "/static/media/icon.9f505595.svg",
+                              "topRow": 47,
+                              "bottomRow": 59,
+                              "parentRowSpace": 10,
+                              "autoFocus": false,
+                              "type": "INPUT_WIDGET_V2",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [],
+                              "resetOnSubmit": true,
+                              "leftColumn": 26,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "defaultText"
+                                },
+                                {
+                                  "key": "accentColor"
+                                },
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "labelStyle": "",
+                              "inputType": "TEXT",
+                              "isDisabled": false,
+                              "key": "qu5zbv6id8",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": false,
+                              "rightColumn": 63,
+                              "widgetId": "xqkifq44ud",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisible": "{{appsmith.store.userRole === 'Checker'}}",
+                              "label": "Checker Remarks",
+                              "version": 2,
+                              "parentId": "daxtakauen",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px",
+                              "iconAlign": "left",
+                              "defaultText": "{{listDDQuery.data?.find((i) => i.VERIFIED_BY_ROLE === 'Checker').VERIFIED_COMMENTS || ''}}"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Select1",
+                              "isFilterable": true,
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Select",
+                              "iconSVG": "/static/media/icon.bd99caba.svg",
+                              "labelText": "Checker Due Diligence Status",
+                              "topRow": 61,
+                              "bottomRow": 65,
+                              "parentRowSpace": 10,
+                              "type": "SELECT_WIDGET",
+                              "serverSideFiltering": false,
+                              "hideCard": false,
+                              "defaultOptionValue": "{{listDDQuery.data?.find((i) => i.VERIFIED_BY_ROLE === 'Checker').VERIFICATION_STATUS}}",
+                              "animateLoading": true,
+                              "parentColumnSpace": 13.22265625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 26,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                },
+                                {
+                                  "key": "defaultOptionValue"
+                                },
+                                {
+                                  "key": "accentColor"
+                                }
+                              ],
+                              "options": "[\n  {\n    \"label\": \"Success\",\n    \"value\": \"s\"\n  },\n  {\n    \"label\": \"Failure\",\n    \"value\": \"f\"\n  }\n]",
+                              "placeholderText": "Select option",
+                              "isDisabled": false,
+                              "key": "2y375rxt0w",
+                              "labelTextSize": "0.875rem",
+                              "isRequired": false,
+                              "rightColumn": 46,
+                              "widgetId": "rw5b2cwy6q",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "isVisible": "{{appsmith.store.userRole === 'Checker'}}",
+                              "version": 1,
+                              "parentId": "daxtakauen",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px"
+                            },
+                            {
+                              "boxShadow": "none",
+                              "widgetName": "Form2",
+                              "isCanvas": true,
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "displayName": "Form",
+                              "iconSVG": "/static/media/icon.ea3e08d1.svg",
+                              "topRow": 7,
+                              "bottomRow": 17,
+                              "parentRowSpace": 10,
+                              "type": "FORM_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 20.0625,
+                              "dynamicTriggerPathList": [],
+                              "leftColumn": 0,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
+                              "children": [
+                                {
+                                  "boxShadow": "none",
+                                  "widgetName": "Canvas4",
+                                  "displayName": "Canvas",
+                                  "topRow": 0,
+                                  "bottomRow": 390,
+                                  "parentRowSpace": 1,
+                                  "type": "CANVAS_WIDGET",
+                                  "canExtend": false,
+                                  "hideCard": true,
+                                  "minHeight": 400,
+                                  "parentColumnSpace": 1,
+                                  "leftColumn": 0,
+                                  "children": [
+                                    {
+                                      "resetFormOnClick": true,
+                                      "boxShadow": "none",
+                                      "widgetName": "FormButton3",
+                                      "buttonColor": "#03B365",
+                                      "displayName": "FormButton",
+                                      "iconSVG": "/static/media/icon.cca02633.svg",
+                                      "topRow": 33,
+                                      "bottomRow": 37,
+                                      "type": "FORM_BUTTON_WIDGET",
+                                      "hideCard": true,
+                                      "animateLoading": true,
+                                      "leftColumn": 46,
+                                      "text": "Submit",
+                                      "key": "tn68ejpi9t",
+                                      "labelTextSize": "0.875rem",
+                                      "rightColumn": 62,
+                                      "isDefaultClickDisabled": true,
+                                      "widgetId": "emw3u3n5bp",
+                                      "isVisible": true,
+                                      "recaptchaType": "V3",
+                                      "version": 1,
+                                      "parentId": "jrxwvp2rx5",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "disabledWhenInvalid": true,
+                                      "borderRadius": "0px",
+                                      "buttonVariant": "PRIMARY"
+                                    },
+                                    {
+                                      "resetFormOnClick": true,
+                                      "boxShadow": "none",
+                                      "widgetName": "FormButton4",
+                                      "buttonColor": "#03B365",
+                                      "displayName": "FormButton",
+                                      "iconSVG": "/static/media/icon.cca02633.svg",
+                                      "topRow": 33,
+                                      "bottomRow": 37,
+                                      "type": "FORM_BUTTON_WIDGET",
+                                      "hideCard": true,
+                                      "animateLoading": true,
+                                      "leftColumn": 30,
+                                      "text": "Reset",
+                                      "key": "tn68ejpi9t",
+                                      "labelTextSize": "0.875rem",
+                                      "rightColumn": 46,
+                                      "isDefaultClickDisabled": true,
+                                      "widgetId": "nyhkbu6z0c",
+                                      "isVisible": true,
+                                      "recaptchaType": "V3",
+                                      "version": 1,
+                                      "parentId": "jrxwvp2rx5",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "disabledWhenInvalid": false,
+                                      "borderRadius": "0px",
+                                      "buttonVariant": "SECONDARY"
+                                    },
+                                    {
+                                      "boxShadow": "none",
+                                      "widgetName": "Select2",
+                                      "isFilterable": true,
+                                      "displayName": "Select",
+                                      "iconSVG": "/static/media/icon.bd99caba.svg",
+                                      "labelText": "Document Type",
+                                      "topRow": 4,
+                                      "bottomRow": 8,
+                                      "parentRowSpace": 10,
+                                      "labelWidth": 5,
+                                      "type": "SELECT_WIDGET",
+                                      "serverSideFiltering": false,
+                                      "hideCard": false,
+                                      "defaultOptionValue": "ns",
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 19.12890625,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 0,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "accentColor"
+                                        }
+                                      ],
+                                      "labelPosition": "Left",
+                                      "options": "[\n  {\n    \"label\": \"Negative Screening Report\",\n    \"value\": \"ns\"\n  },\n  {\n    \"label\": \"Additional Attachment\",\n    \"value\": \"add\"\n  }\n]",
+                                      "placeholderText": "Select option",
+                                      "isDisabled": false,
+                                      "key": "ekgxorg9mh",
+                                      "labelTextSize": "0.875rem",
+                                      "isRequired": false,
+                                      "rightColumn": 19,
+                                      "widgetId": "kz4l69yceo",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "isVisible": true,
+                                      "version": 1,
+                                      "parentId": "jrxwvp2rx5",
+                                      "labelAlignment": "left",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "borderRadius": "0px"
+                                    },
+                                    {
+                                      "boxShadow": "none",
+                                      "widgetName": "Text3",
+                                      "displayName": "Text",
+                                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                                      "topRow": 0,
+                                      "bottomRow": 4,
+                                      "parentRowSpace": 10,
+                                      "type": "TEXT_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "overflow": "NONE",
+                                      "parentColumnSpace": 13.22265625,
+                                      "dynamicTriggerPathList": [],
+                                      "fontFamily": "System Default",
+                                      "leftColumn": 0,
+                                      "dynamicBindingPathList": [],
+                                      "shouldTruncate": false,
+                                      "truncateButtonColor": "#FFC13D",
+                                      "text": "Upload Document",
+                                      "key": "jyxixsorcj",
+                                      "labelTextSize": "0.875rem",
+                                      "rightColumn": 14,
+                                      "textAlign": "LEFT",
+                                      "widgetId": "s05avp05lp",
+                                      "isVisible": true,
+                                      "fontStyle": "BOLD",
+                                      "textColor": "#231F20",
+                                      "version": 1,
+                                      "parentId": "jrxwvp2rx5",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "borderRadius": "0px",
+                                      "fontSize": "0.875rem"
+                                    },
+                                    {
+                                      "boxShadow": "none",
+                                      "widgetName": "Input2",
+                                      "displayName": "Input",
+                                      "iconSVG": "/static/media/icon.9f505595.svg",
+                                      "topRow": 4,
+                                      "bottomRow": 8,
+                                      "parentRowSpace": 10,
+                                      "autoFocus": false,
+                                      "type": "INPUT_WIDGET_V2",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.22265625,
+                                      "dynamicTriggerPathList": [],
+                                      "resetOnSubmit": true,
+                                      "leftColumn": 21,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "accentColor"
+                                        }
+                                      ],
+                                      "labelStyle": "",
+                                      "inputType": "TEXT",
+                                      "maxChars": "20",
+                                      "isDisabled": false,
+                                      "key": "qu5zbv6id8",
+                                      "labelTextSize": "0.875rem",
+                                      "isRequired": false,
+                                      "rightColumn": 36,
+                                      "widgetId": "4hr3ckdgal",
+                                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                                      "isVisible": true,
+                                      "label": "Document Name",
+                                      "version": 2,
+                                      "parentId": "jrxwvp2rx5",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "borderRadius": "0px",
+                                      "iconAlign": "left",
+                                      "defaultText": ""
+                                    },
+                                    {
+                                      "boxShadow": "none",
+                                      "widgetName": "FilePicker2",
+                                      "dynamicPropertyPathList": [],
+                                      "buttonColor": "#264283",
+                                      "displayName": "FilePicker",
+                                      "iconSVG": "/static/media/icon.7c5ad9c3.svg",
+                                      "topRow": 4,
+                                      "bottomRow": 8,
+                                      "parentRowSpace": 10,
+                                      "allowedFileTypes": [],
+                                      "type": "FILE_PICKER_WIDGET_V2",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 13.22265625,
+                                      "dynamicTriggerPathList": [],
+                                      "leftColumn": 38,
+                                      "dynamicBindingPathList": [],
+                                      "isDisabled": false,
+                                      "key": "rnaayhepup",
+                                      "labelTextSize": "0.875rem",
+                                      "isRequired": false,
+                                      "rightColumn": 49,
+                                      "isDefaultClickDisabled": true,
+                                      "widgetId": "7y7h9fgvj0",
+                                      "isVisible": true,
+                                      "label": "Select Attachments",
+                                      "maxFileSize": 5,
+                                      "version": 1,
+                                      "fileDataType": "Base64",
+                                      "parentId": "jrxwvp2rx5",
+                                      "selectedFiles": [],
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "borderRadius": "0px",
+                                      "files": [],
+                                      "maxNumFiles": 1
+                                    },
+                                    {
+                                      "boxShadow": "none",
+                                      "widgetName": "Button1",
+                                      "onClick": "{{JSObject1.onUploadClick()}}",
+                                      "buttonColor": "#264283",
+                                      "dynamicPropertyPathList": [
+                                        {
+                                          "key": "isDisabled"
+                                        },
+                                        {
+                                          "key": "onClick"
+                                        }
+                                      ],
+                                      "displayName": "Button",
+                                      "iconSVG": "/static/media/icon.cca02633.svg",
+                                      "topRow": 4,
+                                      "bottomRow": 8,
+                                      "parentRowSpace": 10,
+                                      "type": "BUTTON_WIDGET",
+                                      "hideCard": false,
+                                      "animateLoading": true,
+                                      "parentColumnSpace": 19.12890625,
+                                      "dynamicTriggerPathList": [
+                                        {
+                                          "key": "onClick"
+                                        }
+                                      ],
+                                      "leftColumn": 50,
+                                      "dynamicBindingPathList": [
+                                        {
+                                          "key": "isDisabled"
+                                        }
+                                      ],
+                                      "text": "Upload and Save",
+                                      "isDisabled": "{{\n!Select2.selectedOptionValue || !Input2.text || FilePicker2.files.length !== 1\n}}",
+                                      "key": "sf86t93y8a",
+                                      "labelTextSize": "0.875rem",
+                                      "rightColumn": 62,
+                                      "isDefaultClickDisabled": true,
+                                      "widgetId": "75d3mjmt1m",
+                                      "isVisible": true,
+                                      "recaptchaType": "V3",
+                                      "version": 1,
+                                      "parentId": "jrxwvp2rx5",
+                                      "renderMode": "CANVAS",
+                                      "isLoading": false,
+                                      "borderRadius": "0px",
+                                      "buttonVariant": "PRIMARY",
+                                      "placement": "CENTER"
+                                    }
+                                  ],
+                                  "key": "g85rgqicgn",
+                                  "labelTextSize": "0.875rem",
+                                  "rightColumn": 481.5,
+                                  "detachFromLayout": true,
+                                  "widgetId": "jrxwvp2rx5",
+                                  "containerStyle": "none",
+                                  "isVisible": true,
+                                  "version": 1,
+                                  "parentId": "axodbe3l6p",
+                                  "renderMode": "CANVAS",
+                                  "isLoading": false,
+                                  "borderRadius": "0px"
+                                }
+                              ],
+                              "key": "7if7pe9gk5",
+                              "labelTextSize": "0.875rem",
+                              "backgroundColor": "white",
+                              "rightColumn": 63,
+                              "widgetId": "axodbe3l6p",
+                              "isVisible": "{{appsmith.store.userRole === 'Maker'}}",
+                              "parentId": "daxtakauen",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "borderRadius": "0px"
+                            }
+                          ],
+                          "key": "hrq4tpdisl",
+                          "labelTextSize": "0.875rem",
+                          "rightColumn": 330,
+                          "detachFromLayout": true,
+                          "widgetId": "daxtakauen",
+                          "containerStyle": "none",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "dgp6mlvjhr",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "borderRadius": "0px"
+                        }
+                      ],
+                      "key": "qmqppk47a0",
+                      "labelTextSize": "0.875rem",
+                      "backgroundColor": "white",
+                      "rightColumn": 64,
+                      "widgetId": "dgp6mlvjhr",
+                      "isVisible": true,
+                      "parentId": "glgexcwchq",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px"
+                    }
+                  ],
+                  "key": "hrq4tpdisl",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 337.5,
+                  "detachFromLayout": true,
+                  "widgetId": "glgexcwchq",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "isb1dbv1xd",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
+                }
+              ],
+              "borderWidth": "0",
+              "key": "7rxqzjr8qj",
+              "labelTextSize": "0.875rem",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 64,
+              "widgetId": "isb1dbv1xd",
+              "containerStyle": "card",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "0px"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Due Diligence_ListDocQuery",
+              "name": "ListDocQuery",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.FilePath",
+                "appsmith.store.BucketName",
+                "appsmith.store.customerOID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Due Diligence_listDDQuery",
+              "name": "listDDQuery",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.customerOID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Due Diligence",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "gitSyncId": "624b155c4eae7255ccdd4d5d_626208b0b8cddf1c5a43c765"
+}
